@@ -1,0 +1,29 @@
+{
+  "id": "synthetic-linear-response-v1",
+  "name": "Synthetic two-group normalized response",
+  "description": "A parameter-recovery fixture for a linear Gaussian model with a binary experimental condition.",
+  "predictor": [
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+    1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+  ],
+  "outcome": [
+    0.192961, 0.175758, 0.447546, 0.420545, -0.035015,
+    0.462969, -0.053889, 0.284706, -0.021541, 0.107671,
+    0.013287, 0.175013, 0.220315, -0.100052, 0.304699,
+    -0.028720, 0.216427, 0.544404, 0.438510, 0.748697,
+    0.638701, 0.820631, 1.210717, 0.255092, 0.927720,
+    0.457733, 1.007868, 0.439642, 0.788557, 0.843378,
+    1.000487, 1.080315, 0.549941, 0.392643, 0.739090,
+    0.599948, 0.844955, 1.146114, 0.933893, 0.835267
+  ],
+  "known_sigma": 0.25,
+  "true_parameters": {
+    "baseline": 0.25,
+    "condition_effect": 0.55
+  },
+  "provenance": "Generated once with NumPy PCG64 seed 1729 from y = 0.25 + 0.55*x + Normal(0, 0.25). Synthetic educational data; not derived from people, animals, publications, or article prose.",
+  "seed": 1729,
+  "synthetic": true
+}

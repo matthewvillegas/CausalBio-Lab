@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P31749",
+      "uniProtkbId": "AKT1_HUMAN",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "RAC-alpha serine/threonine-protein kinase"
+          }
+        }
+      },
+      "genes": [
+        {
+          "geneName": {"value": "AKT1"},
+          "synonyms": [
+            {"value": "PKB"},
+            {"value": "RAC"}
+          ]
+        }
+      ],
+      "organism": {
+        "scientificName": "Homo sapiens",
+        "commonName": "Human",
+        "taxonId": 9606
+      },
+      "comments": [],
+      "sequence": {
+        "length": 480
+      }
+    }
+  ]
+}

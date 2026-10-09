@@ -1,0 +1,741 @@
+{
+  "metadata": {
+    "title": "Long-term memory retention",
+    "clarification_label": "long-term memory retention",
+    "version": "memory-1.1.0",
+    "description": "A curated educational map separating synaptic plasticity, sleep-related consolidation, and motivation-mediated learning exposure.",
+    "educational_notice": "Curated and educational, not comprehensive. Animal, human, associative, and experimental evidence remain visibly distinct.",
+    "curated_at": "2026-08-03T12:00:00+00:00",
+    "retrieved_at": "2026-08-03",
+    "example_questions": [
+      "What mechanisms support long-term memory retention?",
+      "How could synaptic plasticity and sleep contribute to memory persistence?"
+    ],
+    "display_order": 0,
+    "recognition_terms": [
+      "memory",
+      "memories",
+      "remember",
+      "forgetting",
+      "learning"
+    ],
+    "ambiguous_terms": {
+      "retention": [
+        "long-term memory retention",
+        "fluid retention",
+        "data retention (not biological)"
+      ]
+    },
+    "context_defaults": {
+      "requested_outcome": "long-term memory persistence",
+      "symptom_or_process": "memory encoding and consolidation",
+      "anatomical_region": "brain",
+      "tissue": "hippocampal and distributed neural systems",
+      "activity": "learning",
+      "exposure": null,
+      "timing": "after an encoding event",
+      "duration": null,
+      "population": "general human research context, with explicitly labeled animal evidence",
+      "condition": null,
+      "candidate_intervention": null,
+      "wants_mechanisms": true,
+      "wants_interventions": true,
+      "important_uncertainty": [
+        "Encoding, consolidation, retrieval, attention, and motivation are distinct processes.",
+        "Several molecular links rely on non-human experimental evidence."
+      ]
+    },
+    "interpreted_summary": "We interpreted this as a question about long-term memory consolidation and resistance to forgetting, while keeping attention, motivation, encoding, and retrieval distinct.",
+    "question_classes": [
+      "biological_process",
+      "pathway"
+    ],
+    "expected_hypothesis_keys": [
+      "synaptic_plasticity",
+      "sleep_consolidation",
+      "motivation_indirect"
+    ],
+    "numerical_data": {
+      "explanation": "No approved numerical observations, identified unknown parameters, priors, likelihood, or identifiability review are included in this educational pack."
+    }
+  },
+  "entities": [
+    {
+      "key": "learning_event",
+      "name": "Learning event",
+      "aliases": ["encoding event"],
+      "type": "behavior",
+      "description": "An episode in which information is encountered and encoded; it is not itself equivalent to later retention."
+    },
+    {
+      "key": "patterned_synaptic_activity",
+      "name": "Patterned hippocampal synaptic activity",
+      "aliases": ["patterned neural activity"],
+      "type": "biological_process",
+      "description": "Temporally structured activity in hippocampal circuits, represented here as a trigger for experimentally studied plasticity."
+    },
+    {
+      "key": "nmda_signaling",
+      "name": "NMDA-receptor signaling",
+      "aliases": ["NMDAR signaling"],
+      "type": "receptor",
+      "description": "Glutamate-receptor signaling with context-dependent roles in induction of some forms of synaptic plasticity."
+    },
+    {
+      "key": "hippocampal_ltp",
+      "name": "Hippocampal long-term potentiation",
+      "aliases": ["hippocampal LTP"],
+      "type": "biological_process",
+      "description": "A persistent increase in synaptic efficacy after particular stimulation patterns; a laboratory plasticity phenomenon, not memory itself."
+    },
+    {
+      "key": "spatial_learning",
+      "name": "Hippocampus-dependent spatial learning",
+      "type": "cognitive_outcome",
+      "description": "Acquisition of spatial information in tasks that depend on hippocampal function."
+    },
+    {
+      "key": "memory_persistence",
+      "name": "Long-term memory persistence",
+      "aliases": ["memory retention", "resistance to forgetting"],
+      "type": "cognitive_outcome",
+      "description": "Maintenance of learned information across time, kept distinct from attention, motivation, encoding, and retrieval."
+    },
+    {
+      "key": "hippocampus",
+      "name": "Hippocampus",
+      "type": "tissue",
+      "description": "A medial temporal-lobe structure involved in multiple forms and stages of memory."
+    },
+    {
+      "key": "dentate_granule_cell",
+      "name": "Dentate granule cell",
+      "type": "cell_type",
+      "description": "Principal neurons of the dentate gyrus examined in the foundational rabbit potentiation experiment."
+    },
+    {
+      "key": "ca1_pyramidal_cell",
+      "name": "CA1 pyramidal neuron",
+      "type": "cell_type",
+      "description": "Hippocampal principal neurons targeted in a region- and cell-type-restricted mouse NMDAR knockout."
+    },
+    {
+      "key": "sleep_episode",
+      "name": "Post-learning sleep episode",
+      "type": "behavior",
+      "description": "A sleep period after learning; sleep contains multiple stages and physiological processes."
+    },
+    {
+      "key": "nrem_slow_oscillation",
+      "name": "NREM slow-oscillation activity",
+      "type": "biological_process",
+      "description": "Low-frequency cortical activity during non-rapid-eye-movement sleep, distinct from a stimulation device or protocol."
+    },
+    {
+      "key": "declarative_consolidation",
+      "name": "Declarative-memory consolidation",
+      "type": "biological_process",
+      "description": "Post-encoding processes that stabilize declarative memories; no single measured signal represents the entire process."
+    },
+    {
+      "key": "slow_osc_stimulation",
+      "name": "Slow-oscillatory transcranial stimulation",
+      "type": "device",
+      "description": "An experimental noninvasive stimulation protocol studied during NREM sleep; not presented as a personal intervention."
+    },
+    {
+      "key": "striatal_dopamine",
+      "name": "Striatal dopamine function",
+      "type": "neurotransmitter",
+      "description": "Dopaminergic function in striatal regions, represented only at the level supported by the cited cognitive-effort study."
+    },
+    {
+      "key": "cognitive_effort",
+      "name": "Willingness to expend cognitive effort",
+      "type": "behavior",
+      "description": "Choice to engage with more cognitively demanding tasks when benefits and costs vary."
+    },
+    {
+      "key": "learning_engagement",
+      "name": "Learning engagement",
+      "type": "behavior",
+      "description": "Sustained participation in a learning activity; represented as a proposed mediator, not a molecular memory mechanism."
+    },
+    {
+      "key": "learning_exposure",
+      "name": "Effective learning exposure",
+      "type": "behavior",
+      "description": "The amount and quality of actual contact with learning material."
+    },
+    {
+      "key": "nmda_antagonism",
+      "name": "Experimental NMDA-receptor blockade",
+      "type": "experimental_compound",
+      "description": "A laboratory perturbation used to test receptor involvement; not an intervention for improving memory."
+    }
+  ],
+  "evidence": [
+    {
+      "key": "bliss_lomo_1973",
+      "title": "Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path",
+      "authors": ["T. V. P. Bliss", "T. Lømo"],
+      "year": 1973,
+      "journal": "The Journal of Physiology",
+      "identifiers": [
+        {"namespace": "DOI", "value": "10.1113/jphysiol.1973.sp010273", "url": "https://doi.org/10.1113/jphysiol.1973.sp010273"},
+        {"namespace": "PMID", "value": "4727084", "url": "https://pubmed.ncbi.nlm.nih.gov/4727084/"},
+        {"namespace": "PMCID", "value": "PMC1350458", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1350458/"}
+      ],
+      "study_type": "animal_experiment",
+      "population": {"description": "18 urethane-anesthetized rabbits", "species": "rabbit", "sample_size": 18},
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/4727084/",
+      "context": {"species": "rabbit", "population": "anesthetized laboratory animals", "tissue": "dentate gyrus", "cell_type": "dentate granule cells", "temporal_context": "30 minutes to approximately 10 hours after patterned stimulation"},
+      "result_direction": "supports",
+      "effect_estimate": null,
+      "uncertainty_measure": "Potentiated population responses were reported in 15 of 18 rabbits; no modern standardized effect estimate was supplied.",
+      "limitations": ["Animal physiology experiment with low direct human relevance.", "Did not test behavior, naturalistic learning, NMDA receptors, or memory retention.", "Population responses combine synaptic efficacy and neuronal excitability."],
+      "evidence_note": "Repetitive patterned perforant-path stimulation was followed by durable potentiation of dentate population responses in most tested rabbits.",
+      "supporting_excerpt": null,
+      "retrieved_at": "2026-08-03",
+      "source_adapter": "manual PubMed/PMC verification",
+      "curation_status": "VALIDATED",
+      "grade": "D"
+    },
+    {
+      "key": "morris_1986",
+      "title": "Selective impairment of learning and blockade of long-term potentiation by an N-methyl-D-aspartate receptor antagonist, AP5",
+      "authors": ["R. G. M. Morris", "E. Anderson", "G. S. Lynch", "M. Baudry"],
+      "year": 1986,
+      "journal": "Nature",
+      "identifiers": [
+        {"namespace": "DOI", "value": "10.1038/319774a0", "url": "https://doi.org/10.1038/319774a0"},
+        {"namespace": "PMID", "value": "2869411", "url": "https://pubmed.ncbi.nlm.nih.gov/2869411/"}
+      ],
+      "study_type": "animal_experiment",
+      "population": {"description": "Rats in controlled pharmacology, spatial-learning, and electrophysiology experiments", "species": "rat"},
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/2869411/",
+      "context": {"species": "rat", "population": "laboratory animals", "tissue": "hippocampus", "condition": "experimental intraventricular AP5 perturbation"},
+      "result_direction": "supports",
+      "effect_estimate": null,
+      "uncertainty_measure": "Sample size and a standardized effect estimate were not available in the PubMed abstract used for curation.",
+      "limitations": ["Broad pharmacological blockade can affect processes other than plasticity.", "The shared perturbation does not prove that LTP loss mediated the learning deficit.", "Supports a rat spatial-learning paradigm, not every memory type or human retention."],
+      "evidence_note": "AP5 blocked high-frequency-stimulation-induced hippocampal LTP and selectively impaired place learning while sparing a visual-discrimination task in the reported paradigm.",
+      "supporting_excerpt": null,
+      "retrieved_at": "2026-08-03",
+      "source_adapter": "manual PubMed verification",
+      "curation_status": "VALIDATED",
+      "grade": "D"
+    },
+    {
+      "key": "tsien_1996",
+      "title": "The essential role of hippocampal CA1 NMDA receptor-dependent synaptic plasticity in spatial memory",
+      "authors": ["J. Z. Tsien", "P. T. Huerta", "S. Tonegawa"],
+      "year": 1996,
+      "journal": "Cell",
+      "identifiers": [
+        {"namespace": "DOI", "value": "10.1016/S0092-8674(00)81827-9", "url": "https://doi.org/10.1016/S0092-8674(00)81827-9"},
+        {"namespace": "PMID", "value": "8980238", "url": "https://pubmed.ncbi.nlm.nih.gov/8980238/"}
+      ],
+      "study_type": "animal_experiment",
+      "population": {"description": "Adult mice with NMDAR1 deletion restricted to CA1 pyramidal neurons and controls", "species": "mouse"},
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/8980238/",
+      "context": {"species": "mouse", "population": "genetically modified laboratory animals", "tissue": "hippocampal CA1", "cell_type": "CA1 pyramidal neurons"},
+      "result_direction": "supports",
+      "effect_estimate": null,
+      "uncertainty_measure": "Sample size and standardized effect estimate were not available in the PubMed abstract used for curation.",
+      "limitations": ["The deletion affects multiple NMDAR-dependent functions, not LTP alone.", "Concerns mouse spatial acquisition rather than all memory, human retention, or resistance to forgetting."],
+      "evidence_note": "CA1-restricted NMDAR1 deletion removed CA1 NMDA currents and LTP and impaired spatial memory while reported nonspatial learning remained intact.",
+      "supporting_excerpt": null,
+      "retrieved_at": "2026-08-03",
+      "source_adapter": "manual PubMed verification",
+      "curation_status": "VALIDATED",
+      "grade": "D"
+    },
+    {
+      "key": "marshall_2006",
+      "title": "Boosting slow oscillations during sleep potentiates memory",
+      "authors": ["L. Marshall", "H. Helgadóttir", "M. Mölle", "J. Born"],
+      "year": 2006,
+      "journal": "Nature",
+      "identifiers": [
+        {"namespace": "DOI", "value": "10.1038/nature05278", "url": "https://doi.org/10.1038/nature05278"},
+        {"namespace": "PMID", "value": "17086200", "url": "https://pubmed.ncbi.nlm.nih.gov/17086200/"}
+      ],
+      "study_type": "controlled_experiment",
+      "population": {"description": "13 healthy young adults in a controlled sleep-laboratory study", "species": "human", "sample_size": 13, "age_range": "young adults"},
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17086200/",
+      "context": {"species": "human", "population": "healthy young adults", "tissue": "brain", "condition": "0.75-Hz transcranial stimulation during early nocturnal NREM sleep"},
+      "result_direction": "supports",
+      "effect_estimate": null,
+      "uncertainty_measure": "Small sample; exact standardized effect estimate is not encoded in this demo record.",
+      "limitations": ["Small single-laboratory sample.", "Several sleep features changed, so one mediator was not isolated.", "Does not establish benefit across populations, protocols, or memory types."],
+      "evidence_note": "In this small controlled study, the 0.75-Hz condition increased slow oscillatory and spindle activity and improved retention of hippocampus-dependent declarative material relative to controls.",
+      "supporting_excerpt": null,
+      "retrieved_at": "2026-08-03",
+      "source_adapter": "manual PubMed verification",
+      "curation_status": "VALIDATED",
+      "grade": "B"
+    },
+    {
+      "key": "bueno_lopez_2019",
+      "title": "Slow oscillatory transcranial direct current stimulation (so-tDCS) during slow wave sleep has no effects on declarative memory in healthy young subjects",
+      "authors": ["A. Bueno-Lopez", "C. Eggert", "B. Dorn", "H. Danker-Hopfe"],
+      "year": 2019,
+      "journal": "Brain Stimulation",
+      "identifiers": [
+        {"namespace": "DOI", "value": "10.1016/j.brs.2019.02.012", "url": "https://doi.org/10.1016/j.brs.2019.02.012"},
+        {"namespace": "PMID", "value": "30842037", "url": "https://pubmed.ncbi.nlm.nih.gov/30842037/"}
+      ],
+      "study_type": "randomized_trial",
+      "population": {"description": "23 analyzed healthy adults in a double-blind, placebo-controlled, counterbalanced crossover study", "species": "human", "sample_size": 23, "age_range": "young adults"},
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30842037/",
+      "context": {"species": "human", "population": "healthy young adults", "tissue": "brain", "condition": "0.75-Hz bifrontal so-tDCS versus sham during NREM N2"},
+      "result_direction": "contradicts",
+      "effect_estimate": null,
+      "uncertainty_measure": "No significant stimulation effect was reported for declarative or procedural consolidation or measured sleep physiology.",
+      "limitations": ["Physiological target engagement was not demonstrated.", "Protocol differences limit direct falsification of earlier findings."],
+      "evidence_note": "This double-blind crossover study found no significant stimulation effect on declarative or procedural consolidation, sleep staging, spindle density, or EEG-band power.",
+      "supporting_excerpt": null,
+      "retrieved_at": "2026-08-03",
+      "source_adapter": "manual PubMed verification",
+      "curation_status": "VALIDATED",
+      "grade": "B"
+    },
+    {
+      "key": "westbrook_2020",
+      "title": "Dopamine promotes cognitive effort by biasing the benefits versus costs of cognitive work",
+      "authors": ["A. Westbrook", "R. van den Bosch", "J. I. Määttä", "L. Hofmans", "D. Papadopetraki", "R. Cools", "M. J. Frank"],
+      "year": 2020,
+      "journal": "Science",
+      "identifiers": [
+        {"namespace": "DOI", "value": "10.1126/science.aaz5891", "url": "https://doi.org/10.1126/science.aaz5891"},
+        {"namespace": "PMID", "value": "32193325", "url": "https://pubmed.ncbi.nlm.nih.gov/32193325/"},
+        {"namespace": "PMCID", "value": "PMC7430502", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7430502/"}
+      ],
+      "study_type": "controlled_experiment",
+      "population": {"description": "50 healthy adults completing PET, pharmacology, gaze, and cognitive-effort choice procedures", "species": "human", "sample_size": 50, "age_range": "18–43"},
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32193325/",
+      "context": {"species": "human", "population": "healthy adults", "tissue": "striatum", "condition": "rewarded choices between different N-back loads"},
+      "result_direction": "supports",
+      "effect_estimate": {"measure": "Spearman correlation between caudate dopamine synthesis capacity and cognitive-effort willingness on placebo", "value": 0.32, "unit": "correlation coefficient", "source_note": "Reported association; P=0.029."},
+      "uncertainty_measure": "Pharmacological effects depended on baseline synthesis capacity rather than showing an unconditional group-wide increase.",
+      "limitations": ["Did not measure learning exposure, encoding, consolidation, or retention.", "PET synthesis capacity is observational.", "Pharmacological manipulations were not dopamine-selective in every respect."],
+      "evidence_note": "Greater caudate dopamine synthesis capacity was associated with willingness to select greater cognitive effort; pharmacological effects varied with baseline synthesis capacity.",
+      "supporting_excerpt": null,
+      "retrieved_at": "2026-08-03",
+      "source_adapter": "manual PubMed/PMC verification",
+      "curation_status": "VALIDATED",
+      "grade": "C"
+    }
+  ],
+  "assertions": [
+    {
+      "key": "learning_precedes_activity",
+      "subject": "learning_event",
+      "relation": "PRECEDES",
+      "object": "patterned_synaptic_activity",
+      "confidence": "U",
+      "causal_status": "expert_curation",
+      "context": {"species": "not specified", "population": "general research abstraction", "tissue": "hippocampus"},
+      "evidence": ["bliss_lomo_1973"],
+      "interpretation": "A learning event is represented as preceding neural activity, but the cited artificial-stimulation experiment did not study natural learning.",
+      "limitations": ["Model bridge rather than a directly tested edge in the cited study."]
+    },
+    {
+      "key": "activity_activates_nmda",
+      "subject": "patterned_synaptic_activity",
+      "relation": "ACTIVATES",
+      "object": "nmda_signaling",
+      "confidence": "D",
+      "causal_status": "mechanistic_biochemical",
+      "context": {"species": "rat and mouse", "population": "experimental hippocampal preparations", "tissue": "hippocampus"},
+      "evidence": ["morris_1986", "tsien_1996"],
+      "interpretation": "Particular activity patterns recruit NMDA-receptor-dependent signaling in the studied hippocampal plasticity paradigms.",
+      "limitations": ["Species, circuit, and stimulation-pattern specific."]
+    },
+    {
+      "key": "activity_increases_ltp",
+      "subject": "patterned_synaptic_activity",
+      "relation": "INCREASES",
+      "object": "hippocampal_ltp",
+      "confidence": "D",
+      "causal_status": "causal_experimental",
+      "context": {"species": "rabbit", "population": "anesthetized laboratory animals", "tissue": "dentate gyrus", "cell_type": "dentate granule cells"},
+      "evidence": ["bliss_lomo_1973"],
+      "interpretation": "Patterned perforant-path stimulation produced persistent potentiation of dentate population responses in rabbits.",
+      "limitations": ["Artificial stimulation and an electrophysiological endpoint, not behavioral memory."]
+    },
+    {
+      "key": "nmda_contributes_ltp",
+      "subject": "nmda_signaling",
+      "relation": "CONTRIBUTES_TO",
+      "object": "hippocampal_ltp",
+      "confidence": "D",
+      "causal_status": "causal_experimental",
+      "context": {"species": "rat and mouse", "population": "experimental animals", "tissue": "hippocampus"},
+      "evidence": ["morris_1986", "tsien_1996"],
+      "interpretation": "NMDA-receptor function was required for the tested forms of hippocampal LTP induction under pharmacological and genetic perturbations.",
+      "limitations": ["Does not imply every form of plasticity depends on NMDA receptors."]
+    },
+    {
+      "key": "nmda_contributes_spatial_learning",
+      "subject": "nmda_signaling",
+      "relation": "CONTRIBUTES_TO",
+      "object": "spatial_learning",
+      "confidence": "D",
+      "causal_status": "causal_experimental",
+      "context": {"species": "rat and mouse", "population": "experimental animals", "tissue": "hippocampus"},
+      "evidence": ["morris_1986", "tsien_1996"],
+      "interpretation": "Pharmacological blockade and CA1-restricted genetic deletion impaired specific spatial-learning outcomes.",
+      "limitations": ["Perturbations affect more than LTP and do not generalize to all memory forms."]
+    },
+    {
+      "key": "ltp_contributes_memory",
+      "subject": "hippocampal_ltp",
+      "relation": "PREDICTED_TO_AFFECT",
+      "object": "memory_persistence",
+      "confidence": "U",
+      "causal_status": "hypothesis_only",
+      "context": {"species": "not specified", "population": "cross-species mechanistic projection", "tissue": "hippocampus"},
+      "evidence": ["morris_1986", "tsien_1996"],
+      "interpretation": "LTP is a plausible mechanism component, but the cited perturbations do not identify LTP as the sole mediator of long-term memory persistence.",
+      "limitations": ["Missing direct mediation and human-retention evidence."]
+    },
+    {
+      "key": "sleep_precedes_slow",
+      "subject": "sleep_episode",
+      "relation": "PRECEDES",
+      "object": "nrem_slow_oscillation",
+      "confidence": "C",
+      "causal_status": "expert_curation",
+      "context": {"species": "human", "population": "healthy young adults", "tissue": "brain", "temporal_context": "post-learning NREM sleep"},
+      "evidence": ["marshall_2006", "bueno_lopez_2019"],
+      "interpretation": "NREM sleep includes slow-oscillatory activity; stimulation studies manipulate or attempt to manipulate this physiology.",
+      "limitations": ["Sleep contains many co-occurring processes."]
+    },
+    {
+      "key": "slow_contributes_consolidation",
+      "subject": "nrem_slow_oscillation",
+      "relation": "CONTRIBUTES_TO",
+      "object": "declarative_consolidation",
+      "confidence": "C",
+      "causal_status": "quasi_experimental",
+      "context": {"species": "human", "population": "healthy young adults", "tissue": "brain", "temporal_context": "early nocturnal NREM sleep"},
+      "evidence": ["marshall_2006"],
+      "contradictory": ["bueno_lopez_2019"],
+      "interpretation": "A small stimulation study supports a contribution of slow-oscillation-related physiology to declarative consolidation, while a larger crossover study found no effect.",
+      "limitations": ["Mixed evidence and incomplete physiological target engagement."]
+    },
+    {
+      "key": "consolidation_contributes_persistence",
+      "subject": "declarative_consolidation",
+      "relation": "CONTRIBUTES_TO",
+      "object": "memory_persistence",
+      "confidence": "C",
+      "causal_status": "expert_curation",
+      "context": {"species": "human", "population": "healthy young adults", "temporal_context": "retention across a post-learning sleep period"},
+      "evidence": ["marshall_2006"],
+      "contradictory": ["bueno_lopez_2019"],
+      "interpretation": "Declarative consolidation is represented as contributing to later retention; the intervention evidence is protocol-specific and mixed.",
+      "limitations": ["Not a universal claim across memories or populations."]
+    },
+    {
+      "key": "stimulation_affects_slow",
+      "subject": "slow_osc_stimulation",
+      "relation": "PREDICTED_TO_AFFECT",
+      "object": "nrem_slow_oscillation",
+      "confidence": "C",
+      "causal_status": "causal_experimental",
+      "context": {"species": "human", "population": "healthy young adults", "tissue": "brain", "condition": "laboratory NREM stimulation protocols"},
+      "evidence": ["marshall_2006"],
+      "contradictory": ["bueno_lopez_2019"],
+      "interpretation": "One protocol changed measured slow oscillatory activity; another did not demonstrate target engagement or memory benefit.",
+      "limitations": ["Experimental device research, not a personal intervention recommendation."]
+    },
+    {
+      "key": "dopamine_associated_effort",
+      "subject": "striatal_dopamine",
+      "relation": "ASSOCIATED_WITH",
+      "object": "cognitive_effort",
+      "confidence": "C",
+      "causal_status": "cross_sectional_association",
+      "context": {"species": "human", "population": "healthy adults", "tissue": "striatum", "condition": "rewarded cognitive-effort choice"},
+      "evidence": ["westbrook_2020"],
+      "interpretation": "Caudate dopamine synthesis capacity was associated with willingness to choose greater cognitive effort on placebo.",
+      "limitations": ["Association does not establish a direct causal dopamine effect."]
+    },
+    {
+      "key": "effort_contributes_engagement",
+      "subject": "cognitive_effort",
+      "relation": "PREDICTED_TO_AFFECT",
+      "object": "learning_engagement",
+      "confidence": "U",
+      "causal_status": "hypothesis_only",
+      "context": {"species": "human", "population": "general learning context"},
+      "evidence": ["westbrook_2020"],
+      "interpretation": "Willingness to expend effort may affect engagement, but the cited study used rewarded N-back choices rather than a retention task.",
+      "limitations": ["Downstream bridge was not measured in the cited study."]
+    },
+    {
+      "key": "engagement_increases_exposure",
+      "subject": "learning_engagement",
+      "relation": "INCREASES",
+      "object": "learning_exposure",
+      "confidence": "U",
+      "causal_status": "expert_curation",
+      "context": {"species": "human", "population": "general learning context"},
+      "evidence": ["westbrook_2020"],
+      "interpretation": "Engagement is modeled as increasing effective exposure; this bridge is a conceptual assumption outside the cited experiment.",
+      "limitations": ["Requires direct educational or behavioral evidence not bundled in this pack."]
+    },
+    {
+      "key": "exposure_contributes_memory",
+      "subject": "learning_exposure",
+      "relation": "PREDICTED_TO_AFFECT",
+      "object": "memory_persistence",
+      "confidence": "U",
+      "causal_status": "hypothesis_only",
+      "context": {"species": "human", "population": "general learning context"},
+      "evidence": ["westbrook_2020"],
+      "interpretation": "Effective exposure could indirectly affect what is retained, but retention was not measured in the cited dopamine-effort study.",
+      "limitations": ["Not established by the attached source; retained as an explicitly weak link."]
+    },
+    {
+      "key": "antagonism_inhibits_nmda",
+      "subject": "nmda_antagonism",
+      "relation": "INHIBITS",
+      "object": "nmda_signaling",
+      "polarity": -1,
+      "confidence": "D",
+      "causal_status": "causal_experimental",
+      "context": {"species": "rat", "population": "laboratory animals", "tissue": "hippocampus"},
+      "evidence": ["morris_1986"],
+      "interpretation": "Experimental AP5 administration blocked NMDA-receptor-dependent processes in the rat paradigm.",
+      "limitations": ["Laboratory perturbation only; not a memory-improvement strategy."]
+    }
+  ],
+  "hypotheses": [
+    {
+      "key": "synaptic_plasticity",
+      "title": "Hippocampal NMDA-dependent plasticity",
+      "summary": "Particular hippocampal activity patterns can recruit NMDA-receptor-dependent plasticity. Animal perturbation studies connect this machinery to selected spatial-learning outcomes, but no study here proves the full chain to general human memory persistence.",
+      "outcome": "memory_persistence",
+      "trigger": "learning_event",
+      "paths": [
+        {"entities": ["learning_event", "patterned_synaptic_activity", "nmda_signaling", "hippocampal_ltp", "memory_persistence"], "assertions": ["learning_precedes_activity", "activity_activates_nmda", "nmda_contributes_ltp", "ltp_contributes_memory"]}
+      ],
+      "mediators": ["patterned_synaptic_activity", "nmda_signaling", "hippocampal_ltp"],
+      "tissues": ["hippocampus"],
+      "cells": ["dentate_granule_cell", "ca1_pyramidal_cell"],
+      "pathways": ["nmda_signaling", "hippocampal_ltp"],
+      "evidence": ["bliss_lomo_1973", "morris_1986", "tsien_1996"],
+      "context_requirements": ["Memory type and task must be specified.", "Species and hippocampal subregion must be preserved."],
+      "missing_links": ["Direct mediation from LTP to human long-term retention is not established by these records."],
+      "uncertainty": ["Foundational causal experiments are non-human.", "Pharmacological and genetic perturbations affect functions beyond LTP."],
+      "interventions": ["nmda_blockade_research"],
+      "evidence_label": "Strong animal mechanism; indirect for general human retention"
+    },
+    {
+      "key": "sleep_consolidation",
+      "title": "Sleep-related declarative consolidation",
+      "summary": "Slow-oscillation-related physiology during NREM sleep may contribute to declarative consolidation, but protocol-specific human stimulation results conflict.",
+      "outcome": "memory_persistence",
+      "trigger": "sleep_episode",
+      "paths": [
+        {"entities": ["sleep_episode", "nrem_slow_oscillation", "declarative_consolidation", "memory_persistence"], "assertions": ["sleep_precedes_slow", "slow_contributes_consolidation", "consolidation_contributes_persistence"]}
+      ],
+      "mediators": ["nrem_slow_oscillation", "declarative_consolidation"],
+      "tissues": ["hippocampus"],
+      "evidence": ["marshall_2006"],
+      "contradictory": ["bueno_lopez_2019"],
+      "context_requirements": ["Healthy-young-adult laboratory context.", "Declarative rather than all memory outcomes."],
+      "missing_links": ["The causal contribution of the stimulated feature is not isolated from other sleep physiology."],
+      "uncertainty": ["Small original sample.", "A later double-blind crossover study reported a null result."],
+      "interventions": ["slow_stimulation_research"],
+      "evidence_label": "Mixed human experimental evidence"
+    },
+    {
+      "key": "motivation_indirect",
+      "title": "Motivation-mediated learning exposure",
+      "summary": "Striatal dopamine-related variation may influence willingness to expend cognitive effort. Any path from that choice to later retention is indirect and remains unsupported in the bundled study.",
+      "outcome": "memory_persistence",
+      "trigger": "striatal_dopamine",
+      "paths": [
+        {"entities": ["striatal_dopamine", "cognitive_effort", "learning_engagement", "learning_exposure", "memory_persistence"], "assertions": ["dopamine_associated_effort", "effort_contributes_engagement", "engagement_increases_exposure", "exposure_contributes_memory"]}
+      ],
+      "mediators": ["cognitive_effort", "learning_engagement", "learning_exposure"],
+      "tissues": [],
+      "evidence": ["westbrook_2020"],
+      "context_requirements": ["Reward structure and task demands matter."],
+      "missing_links": ["Engagement, effective learning exposure, and retention were not measured by the cited study."],
+      "uncertainty": ["The supported first edge is partly observational.", "This is not a direct synaptic-consolidation mechanism."],
+      "interventions": ["dopamine_manipulation_research"],
+      "evidence_label": "Human evidence for effort choice; downstream retention path unvalidated"
+    }
+  ],
+  "interventions": [
+    {
+      "key": "slow_stimulation_research",
+      "name": "Slow-oscillatory sleep stimulation (research object)",
+      "class": "device",
+      "description": "An experimental laboratory stimulation class studied during NREM sleep. Results in this pack are inconsistent, and the object is not presented for personal use.",
+      "targets": ["nrem_slow_oscillation"],
+      "assertions": ["stimulation_affects_slow"],
+      "evidence": ["marshall_2006", "bueno_lopez_2019"],
+      "maturity": "experimental human laboratory research",
+      "addresses": "mediator",
+      "mechanistic_relevance": 0.72,
+      "evidence_strength": 0.48,
+      "directness": 0.64,
+      "translational_maturity": 0.30,
+      "uncertainty": ["Conflicting replication.", "Protocol and target-engagement differences."],
+      "major_safety_concerns": ["Requires research or clinical oversight; no self-administration guidance is provided."],
+      "unsupported_assumptions": ["Generalization to other populations, protocols, or memory types."]
+    },
+    {
+      "key": "nmda_blockade_research",
+      "name": "NMDA-receptor blockade (mechanistic perturbation)",
+      "class": "experimental_compound",
+      "description": "A causal laboratory perturbation used to test pathway necessity in animals; it impairs rather than enhances the studied outcomes and is not a treatment proposal.",
+      "targets": ["nmda_signaling"],
+      "assertions": ["antagonism_inhibits_nmda"],
+      "evidence": ["morris_1986"],
+      "maturity": "preclinical mechanistic research",
+      "addresses": "mediator",
+      "mechanistic_relevance": 0.88,
+      "evidence_strength": 0.52,
+      "directness": 0.85,
+      "translational_maturity": 0.08,
+      "uncertainty": ["Broad perturbation affects more than the modeled transition."],
+      "major_safety_concerns": ["Not suitable for unsupervised human experimentation.", "No dosing, route, or acquisition information is provided."],
+      "unsupported_assumptions": ["That inhibiting this pathway has any memory benefit."]
+    },
+    {
+      "key": "dopamine_manipulation_research",
+      "name": "Dopaminergic manipulation (research object)",
+      "class": "experimental_compound",
+      "description": "Pharmacological manipulation used to probe cognitive-effort decisions. It did not test memory retention and is not presented as a memory intervention.",
+      "targets": ["striatal_dopamine", "cognitive_effort"],
+      "assertions": [],
+      "evidence": ["westbrook_2020"],
+      "maturity": "human mechanistic research",
+      "addresses": "mediator",
+      "mechanistic_relevance": 0.42,
+      "evidence_strength": 0.58,
+      "directness": 0.35,
+      "translational_maturity": 0.20,
+      "uncertainty": ["Baseline-dependent effects.", "No retention outcome."],
+      "major_safety_concerns": ["Prescription and pharmacological risks require medical oversight.", "No personal-use guidance is provided."],
+      "unsupported_assumptions": ["That more cognitive effort necessarily improves learning or retention."]
+    }
+  ],
+  "petri_model": {
+    "key": "memory-plasticity",
+    "name": "Curated memory-plasticity systems model",
+    "description": "A deliberately simplified educational state-transition model linking a plasticity input to receptor signaling, intracellular signaling, plasticity-related products, and an accumulated consolidated-state output.",
+    "model_version": "memory-petri-1.0.0",
+    "output_place": "consolidated_output",
+    "scenarios": [
+      {
+        "id": "increased_activation",
+        "label": "Increase activation",
+        "description": "Increase the synthetic pathway input rate.",
+        "parameter_changes": [
+          {
+            "key": "Plasticity input.rate",
+            "baseline": 0.35,
+            "at_full_strength": 0.7
+          }
+        ],
+        "initial_changes": []
+      },
+      {
+        "id": "inhibition",
+        "label": "Increase inhibition",
+        "description": "Reduce the receptor-dependent conversion rate.",
+        "parameter_changes": [
+          {
+            "key": "Receptor-dependent signaling.rate_constant",
+            "baseline": 0.55,
+            "at_full_strength": 0.1375
+          }
+        ],
+        "initial_changes": []
+      },
+      {
+        "id": "reduced_input",
+        "label": "Reduce input",
+        "description": "Reduce the synthetic pathway input rate.",
+        "parameter_changes": [
+          {
+            "key": "Plasticity input.rate",
+            "baseline": 0.35,
+            "at_full_strength": 0.105
+          }
+        ],
+        "initial_changes": []
+      },
+      {
+        "id": "increased_feedback",
+        "label": "Increase feedback",
+        "description": "Strengthen the declared positive-feedback transition.",
+        "parameter_changes": [
+          {
+            "key": "Feedback reinforcement.rate_constant",
+            "baseline": 0.05,
+            "at_full_strength": 0.14
+          }
+        ],
+        "initial_changes": []
+      }
+    ],
+    "assumptions": [
+      "All states are dimensionless abstractions rather than measured concentrations.",
+      "Mass-action transitions are phenomenological and do not reproduce a complete biochemical pathway.",
+      "The synthetic parameters are for qualitative scenario comparison only.",
+      "Transcription and product states are model assumptions not directly established by the bundled evidence records."
+    ],
+    "places": [
+      {"key": "plasticity_signal", "name": "Plasticity signal", "description": "External activity-related drive.", "representation": "dimensionless activity", "units": "a.u.", "compartment": "synaptic input", "valid_min": 0.0, "valid_max": 10.0, "initial_value": 0.1},
+      {"key": "receptor_activation", "name": "Receptor activation", "description": "Abstract NMDA-receptor-dependent activation state.", "representation": "dimensionless activity", "units": "a.u.", "compartment": "postsynaptic membrane", "valid_min": 0.0, "valid_max": 10.0, "initial_value": 0.02},
+      {"key": "intracellular_signal", "name": "Intracellular signaling", "description": "Aggregated downstream signaling state.", "representation": "dimensionless activity", "units": "a.u.", "compartment": "postsynaptic cell", "valid_min": 0.0, "valid_max": 10.0, "initial_value": 0.01},
+      {"key": "plasticity_products", "name": "Plasticity-related products", "description": "Abstract slowly produced factors supporting persistence.", "representation": "dimensionless amount", "units": "a.u.", "compartment": "postsynaptic cell", "valid_min": 0.0, "valid_max": 20.0, "initial_value": 0.0},
+      {"key": "consolidated_output", "name": "Consolidated-state output", "description": "Accumulated model output, not a measured memory score.", "representation": "dimensionless accumulated output", "units": "a.u.", "compartment": "model output", "valid_min": 0.0, "valid_max": 50.0, "initial_value": 0.0},
+      {"key": "feedback", "name": "Positive feedback state", "description": "Bounded abstract feedback supporting receptor-pathway persistence.", "representation": "dimensionless activity", "units": "a.u.", "compartment": "postsynaptic cell", "valid_min": 0.0, "valid_max": 10.0, "initial_value": 0.0}
+    ],
+    "transitions": [
+      {"key": "signal_input", "name": "Plasticity input", "biological_event": "External activity adds plasticity signal.", "rate_law": "constant", "parameters": {"rate": 0.35}, "evidence": ["bliss_lomo_1973"], "assumptions": ["Synthetic constant drive approximates repeated input."]},
+      {"key": "receptor_step", "name": "Receptor-dependent signaling", "biological_event": "Plasticity signal is converted into receptor activation.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.55}, "evidence": ["morris_1986", "tsien_1996"], "assumptions": ["One aggregate transition replaces multiple molecular events."]},
+      {"key": "intracellular_step", "name": "Intracellular propagation", "biological_event": "Receptor activation drives an aggregate intracellular state.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.42}, "evidence": ["morris_1986", "tsien_1996"], "assumptions": ["Phenomenological transition; molecular identity is intentionally unspecified."]},
+      {"key": "product_step", "name": "Plasticity-product formation", "biological_event": "Intracellular signaling produces a slower plasticity-support state.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.24}, "evidence": ["bliss_lomo_1973"], "assumptions": ["Synthetic model bridge, not directly measured in the cited study."]},
+      {"key": "consolidation_step", "name": "Consolidated-output accumulation", "biological_event": "Plasticity-related products add to an output state.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.16}, "evidence": ["bliss_lomo_1973"], "assumptions": ["Output is not behavioral memory and has arbitrary units."]},
+      {"key": "feedback_step", "name": "Feedback formation", "biological_event": "Product state produces a bounded feedback state.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.08}, "evidence": ["bliss_lomo_1973"], "assumptions": ["Exploratory model assumption."]},
+      {"key": "feedback_reinforcement", "name": "Feedback reinforcement", "biological_event": "The abstract feedback state reinforces receptor-pathway activation.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.05}, "evidence": ["bliss_lomo_1973"], "assumptions": ["Exploratory positive-feedback loop, not identified from the source."]},
+      {"key": "signal_decay", "name": "Signal decay", "biological_event": "Plasticity signal clears.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.32}, "evidence": ["bliss_lomo_1973"], "assumptions": ["Synthetic first-order loss."]},
+      {"key": "receptor_decay", "name": "Receptor-state decay", "biological_event": "Receptor activation relaxes.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.28}, "evidence": ["morris_1986"], "assumptions": ["Synthetic first-order loss."]},
+      {"key": "intracellular_decay", "name": "Intracellular-state decay", "biological_event": "Intracellular activity relaxes.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.18}, "evidence": ["morris_1986"], "assumptions": ["Synthetic first-order loss."]},
+      {"key": "product_decay", "name": "Product decay", "biological_event": "Plasticity-support state clears.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.08}, "evidence": ["bliss_lomo_1973"], "assumptions": ["Synthetic first-order loss."]},
+      {"key": "feedback_decay", "name": "Feedback decay", "biological_event": "Feedback state clears.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.10}, "evidence": ["bliss_lomo_1973"], "assumptions": ["Synthetic first-order loss."]}
+    ],
+    "arcs": [
+      {"place": "plasticity_signal", "transition": "signal_input", "type": "output", "weight": 1.0},
+      {"place": "plasticity_signal", "transition": "receptor_step", "type": "input", "weight": 1.0},
+      {"place": "receptor_activation", "transition": "receptor_step", "type": "output", "weight": 1.0},
+      {"place": "receptor_activation", "transition": "intracellular_step", "type": "input", "weight": 1.0},
+      {"place": "intracellular_signal", "transition": "intracellular_step", "type": "output", "weight": 1.0},
+      {"place": "intracellular_signal", "transition": "product_step", "type": "input", "weight": 1.0},
+      {"place": "plasticity_products", "transition": "product_step", "type": "output", "weight": 1.0},
+      {"place": "plasticity_products", "transition": "consolidation_step", "type": "read", "weight": 1.0},
+      {"place": "consolidated_output", "transition": "consolidation_step", "type": "output", "weight": 1.0},
+      {"place": "plasticity_products", "transition": "feedback_step", "type": "read", "weight": 1.0},
+      {"place": "feedback", "transition": "feedback_step", "type": "output", "weight": 1.0},
+      {"place": "feedback", "transition": "feedback_reinforcement", "type": "input", "weight": 1.0},
+      {"place": "receptor_activation", "transition": "feedback_reinforcement", "type": "output", "weight": 1.0},
+      {"place": "plasticity_signal", "transition": "signal_decay", "type": "input", "weight": 1.0},
+      {"place": "receptor_activation", "transition": "receptor_decay", "type": "input", "weight": 1.0},
+      {"place": "intracellular_signal", "transition": "intracellular_decay", "type": "input", "weight": 1.0},
+      {"place": "plasticity_products", "transition": "product_decay", "type": "input", "weight": 1.0},
+      {"place": "feedback", "transition": "feedback_decay", "type": "input", "weight": 1.0}
+    ]
+  }
+}

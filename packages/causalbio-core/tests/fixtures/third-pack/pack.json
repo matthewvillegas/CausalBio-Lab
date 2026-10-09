@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "Synthetic switch fixture",
+    "clarification_label": "synthetic switch fixture",
+    "version": "fixture-1.0.0",
+    "description": "Third-pack contract fixture only. No biological claims or real publications.",
+    "educational_notice": "Synthetic software fixture; never scientific evidence.",
+    "curated_at": "2025-01-01T00:00:00+00:00",
+    "retrieved_at": "2025-01-01",
+    "example_questions": [
+      "How does the synthetic switch affect the fixture outcome?"
+    ],
+    "recognition_terms": [
+      "synthetic switch"
+    ],
+    "context_defaults": {
+      "requested_outcome": "fixture outcome",
+      "symptom_or_process": "synthetic signal propagation",
+      "population": "synthetic software-test objects"
+    },
+    "interpreted_summary": "This question selects a synthetic test fixture, not biological evidence.",
+    "question_classes": [
+      "biological_process",
+      "pathway"
+    ],
+    "expected_hypothesis_keys": [
+      "toy_path"
+    ],
+    "numerical_data": {
+      "explanation": "No numerical data or executable pathway model is supplied."
+    }
+  },
+  "entities": [
+    {
+      "key": "switch",
+      "name": "Synthetic switch",
+      "type": "biological_process",
+      "description": "Nonbiological software-test placeholder.",
+      "source": "Synthetic fixture"
+    },
+    {
+      "key": "outcome",
+      "name": "Fixture outcome",
+      "type": "phenotype",
+      "description": "Nonbiological software-test placeholder.",
+      "source": "Synthetic fixture"
+    }
+  ],
+  "evidence": [
+    {
+      "key": "synthetic_record",
+      "title": "Synthetic fixture record, not a real publication",
+      "authors": [
+        "Software fixture"
+      ],
+      "year": 2025,
+      "journal": "Not a publication",
+      "identifiers": [
+        {
+          "namespace": "fixture",
+          "value": "synthetic-record"
+        }
+      ],
+      "study_type": "computational",
+      "population": {
+        "description": "Synthetic objects",
+        "species": "synthetic fixture"
+      },
+      "source_url": "https://example.org/synthetic-fixture",
+      "context": {
+        "species": "synthetic fixture",
+        "population": "software-test objects",
+        "tissue": "not biological"
+      },
+      "grade": "U",
+      "result_direction": "contextualizes",
+      "limitations": [
+        "Synthetic fixture; not scientific evidence."
+      ],
+      "evidence_note": "A software-only source object used to exercise provenance validation.",
+      "retrieved_at": "2025-01-01",
+      "source_adapter": "test-fixture",
+      "curation_status": "VALIDATED"
+    }
+  ],
+  "assertions": [
+    {
+      "key": "switch_outcome",
+      "subject": "switch",
+      "object": "outcome",
+      "relation": "PREDICTED_TO_AFFECT",
+      "confidence": "U",
+      "causal_status": "hypothesis_only",
+      "context": {
+        "species": "synthetic fixture",
+        "population": "software-test objects",
+        "tissue": "not biological"
+      },
+      "evidence": [
+        "synthetic_record"
+      ],
+      "interpretation": "Synthetic fixture connection, not a biological claim.",
+      "limitations": [
+        "Software-only fixture."
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "key": "toy_path",
+      "title": "Synthetic switch path",
+      "summary": "A software-only mechanism fixture.",
+      "trigger": "switch",
+      "outcome": "outcome",
+      "paths": [
+        {
+          "entities": [
+            "switch",
+            "outcome"
+          ],
+          "assertions": [
+            "switch_outcome"
+          ]
+        }
+      ],
+      "mediators": [],
+      "evidence": [
+        "synthetic_record"
+      ],
+      "uncertainty": [
+        "No biological support exists for this synthetic fixture."
+      ],
+      "evidence_label": "Synthetic fixture"
+    }
+  ],
+  "interventions": [],
+  "petri_model": null
+}

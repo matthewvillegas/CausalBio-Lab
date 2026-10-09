@@ -1,0 +1,4213 @@
+{
+  "captured_at": "2026-10-05T22:35:52.257Z",
+  "completed": true,
+  "baseURL": "http://127.0.0.1:3000",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "captures": [
+    {
+      "name": "landing",
+      "filename": "landing-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "landing",
+      "filename": "landing-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "landing",
+      "filename": "landing-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "landing-dark",
+      "filename": "landing-dark-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "landing-dark",
+      "filename": "landing-dark-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "landing-dark",
+      "filename": "landing-dark-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-interpretation",
+      "filename": "live-interpretation-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-interpretation",
+      "filename": "live-interpretation-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-interpretation",
+      "filename": "live-interpretation-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-summary",
+      "filename": "live-summary-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-summary",
+      "filename": "live-summary-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-summary",
+      "filename": "live-summary-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-mechanisms",
+      "filename": "live-mechanisms-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-mechanisms",
+      "filename": "live-mechanisms-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-mechanisms",
+      "filename": "live-mechanisms-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-pathway",
+      "filename": "live-pathway-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-pathway",
+      "filename": "live-pathway-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-pathway",
+      "filename": "live-pathway-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "citation-drawer",
+      "filename": "citation-drawer-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "citation-drawer",
+      "filename": "citation-drawer-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "citation-drawer",
+      "filename": "citation-drawer-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-references",
+      "filename": "live-references-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-references",
+      "filename": "live-references-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-references",
+      "filename": "live-references-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-html-report",
+      "filename": "live-html-report-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-html-report",
+      "filename": "live-html-report-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-html-report",
+      "filename": "live-html-report-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-summary-dark",
+      "filename": "live-summary-dark-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-summary-dark",
+      "filename": "live-summary-dark-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "live-summary-dark",
+      "filename": "live-summary-dark-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-interpretation",
+      "filename": "curated-interpretation-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-interpretation",
+      "filename": "curated-interpretation-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-interpretation",
+      "filename": "curated-interpretation-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-summary",
+      "filename": "curated-summary-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-summary",
+      "filename": "curated-summary-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-summary",
+      "filename": "curated-summary-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-mechanisms",
+      "filename": "curated-mechanisms-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-mechanisms",
+      "filename": "curated-mechanisms-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-mechanisms",
+      "filename": "curated-mechanisms-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-pathway",
+      "filename": "curated-pathway-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-pathway",
+      "filename": "curated-pathway-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-pathway",
+      "filename": "curated-pathway-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-evidence",
+      "filename": "curated-evidence-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-evidence",
+      "filename": "curated-evidence-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-evidence",
+      "filename": "curated-evidence-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "full-graph",
+      "filename": "full-graph-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "full-graph",
+      "filename": "full-graph-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "full-graph",
+      "filename": "full-graph-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "full-graph-dark",
+      "filename": "full-graph-dark-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "full-graph-dark",
+      "filename": "full-graph-dark-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "full-graph-dark",
+      "filename": "full-graph-dark-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "simulation",
+      "filename": "simulation-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "simulation",
+      "filename": "simulation-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "simulation",
+      "filename": "simulation-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": [
+        {
+          "tag": "DIV",
+          "label": null,
+          "width": 350,
+          "contentWidth": 365,
+          "keyboardFocusable": false
+        },
+        {
+          "tag": "DIV",
+          "label": null,
+          "width": 350,
+          "contentWidth": 504,
+          "keyboardFocusable": false
+        }
+      ]
+    },
+    {
+      "name": "simulation-trajectory",
+      "filename": "simulation-trajectory-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "simulation-trajectory",
+      "filename": "simulation-trajectory-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "simulation-trajectory",
+      "filename": "simulation-trajectory-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": [
+        {
+          "tag": "DIV",
+          "label": null,
+          "width": 350,
+          "contentWidth": 365,
+          "keyboardFocusable": false
+        },
+        {
+          "tag": "DIV",
+          "label": null,
+          "width": 350,
+          "contentWidth": 504,
+          "keyboardFocusable": false
+        }
+      ]
+    },
+    {
+      "name": "bayesian",
+      "filename": "bayesian-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "bayesian",
+      "filename": "bayesian-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "bayesian",
+      "filename": "bayesian-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": [
+        {
+          "tag": "DIV",
+          "label": null,
+          "width": 350,
+          "contentWidth": 493,
+          "keyboardFocusable": true
+        }
+      ]
+    },
+    {
+      "name": "report-panel",
+      "filename": "report-panel-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "report-panel",
+      "filename": "report-panel-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "report-panel",
+      "filename": "report-panel-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": [
+        {
+          "tag": "DIV",
+          "label": null,
+          "width": 350,
+          "contentWidth": 493,
+          "keyboardFocusable": true
+        }
+      ]
+    },
+    {
+      "name": "curated-html-report",
+      "filename": "curated-html-report-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-html-report",
+      "filename": "curated-html-report-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "curated-html-report",
+      "filename": "curated-html-report-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "library",
+      "filename": "library-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "library",
+      "filename": "library-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "library",
+      "filename": "library-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "saved-investigations",
+      "filename": "saved-investigations-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "saved-investigations",
+      "filename": "saved-investigations-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "saved-investigations",
+      "filename": "saved-investigations-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "about",
+      "filename": "about-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "about",
+      "filename": "about-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "about",
+      "filename": "about-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "bdnf-explanation",
+      "filename": "bdnf-explanation-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "bdnf-explanation",
+      "filename": "bdnf-explanation-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "bdnf-explanation",
+      "filename": "bdnf-explanation-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "safety-alternative",
+      "filename": "safety-alternative-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "safety-alternative",
+      "filename": "safety-alternative-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "safety-alternative",
+      "filename": "safety-alternative-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "clarification",
+      "filename": "clarification-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "clarification",
+      "filename": "clarification-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "real production workflow",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "clarification",
+      "filename": "clarification-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "real production workflow",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "loading",
+      "filename": "loading-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "controlled UI fixture: delayed real result snapshot",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "loading",
+      "filename": "loading-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "controlled UI fixture: delayed real result snapshot",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "loading",
+      "filename": "loading-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "controlled UI fixture: delayed real result snapshot",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "partial-result",
+      "filename": "partial-result-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "controlled UI fixture: partial provider availability",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "partial-result",
+      "filename": "partial-result-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "controlled UI fixture: partial provider availability",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "partial-result",
+      "filename": "partial-result-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "controlled UI fixture: partial provider availability",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "empty-offline-result",
+      "filename": "empty-offline-result-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "controlled UI fixture: offline without cached evidence",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "empty-offline-result",
+      "filename": "empty-offline-result-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "controlled UI fixture: offline without cached evidence",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "empty-offline-result",
+      "filename": "empty-offline-result-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "controlled UI fixture: offline without cached evidence",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "network-error",
+      "filename": "network-error-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "controlled UI fixture: unavailable interpretation API",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "network-error",
+      "filename": "network-error-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "controlled UI fixture: unavailable interpretation API",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "network-error",
+      "filename": "network-error-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "controlled UI fixture: unavailable interpretation API",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    },
+    {
+      "name": "empty-library",
+      "filename": "empty-library-1440.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "phase": "controlled UI fixture: empty saved investigations",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "scrollContainers": []
+    },
+    {
+      "name": "empty-library",
+      "filename": "empty-library-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "phase": "controlled UI fixture: empty saved investigations",
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "scrollContainers": []
+    },
+    {
+      "name": "empty-library",
+      "filename": "empty-library-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "controlled UI fixture: empty saved investigations",
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "scrollContainers": []
+    }
+  ],
+  "checks": [
+    "Citation opens with Enter; Tab stays in the dialog whenever the document has focus (native Chromium can visit browser chrome); Escape closes it and restores the citation's focus.",
+    "Full graph retains keyboard relationship inspection and conflicting evidence.",
+    "Saved tendon research reopens through the production session endpoint.",
+    "Explanation opens directly; expanded search exposes editable interpretation.",
+    "Restricted request makes no retrieval; the explicit safe-research click starts the offered scientific question.",
+    "Reduced-motion preference is active and page scrolling is not animated."
+  ],
+  "results": [
+    {
+      "id": "3a980ba3-b7b9-4b22-aa83-336c9a31d120",
+      "question": "What mechanisms influence tendon recovery?",
+      "mode": "LIVE_RESEARCH",
+      "saved_locally": true,
+      "evidence_count": 14,
+      "mechanism_count": 6,
+      "sources": [
+        {
+          "source": "europe_pmc",
+          "provider_version": "europe-pmc-core-search-1",
+          "query": "tendon AND (healing OR recovery OR repair) AND (mechanotransduction OR collagen OR inflammation OR tenocyte OR remodeling)",
+          "status": "available",
+          "record_count": 8,
+          "retrieved_at": "2026-10-05T22:34:56.935703Z",
+          "detail": null
+        },
+        {
+          "source": "pubmed",
+          "provider_version": "pubmed-esearch-esummary-2",
+          "query": "tendon AND (healing OR recovery OR repair) AND (mechanotransduction OR collagen OR inflammation OR tenocyte OR remodeling)",
+          "status": "available",
+          "record_count": 6,
+          "retrieved_at": "2026-10-05T22:34:57.898287Z",
+          "detail": null
+        },
+        {
+          "source": "europe_pmc",
+          "provider_version": "europe-pmc-core-search-1",
+          "query": "(tendon AND (healing OR recovery OR repair) AND (mechanotransduction OR collagen OR inflammation OR tenocyte OR remodeling)) AND (\"no effect\" OR inconsistent OR contradict* OR limitations)",
+          "status": "available",
+          "record_count": 3,
+          "retrieved_at": "2026-10-05T22:34:56.572036Z",
+          "detail": null
+        },
+        {
+          "source": "europe_pmc",
+          "provider_version": "europe-pmc-core-search-1",
+          "query": "(tendon AND (healing OR recovery OR repair) AND (mechanotransduction OR collagen OR inflammation OR tenocyte OR remodeling)) AND PUB_TYPE:review",
+          "status": "available",
+          "record_count": 3,
+          "retrieved_at": "2026-10-05T22:34:56.247725Z",
+          "detail": null
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ee80486a-13ce-53de-9a1c-15da9e2b1fab",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42496412",
+          "retrieved_at": "2026-10-05T22:34:56.935703Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "4c9d61c1-e4d2-54ae-9827-afc275d2f4c6",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42645211",
+          "retrieved_at": "2026-10-05T22:34:56.935703Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "853bd9fe-dfd0-58bc-a750-19e5de0e987a",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42606637",
+          "retrieved_at": "2026-10-05T22:34:56.935703Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "0d6a7670-59dd-50a1-9d6d-8df364f4d4ec",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42774559",
+          "retrieved_at": "2026-10-05T22:34:56.935703Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "333624b6-5dfc-5db9-9537-51c71388fd02",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42781429",
+          "retrieved_at": "2026-10-05T22:34:56.935703Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "2a32380b-ae54-5604-811f-d35b0c794968",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42004601",
+          "retrieved_at": "2026-10-05T22:34:56.935703Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "87ecfb11-e8c2-5c70-89fd-41a032cd5221",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42792668",
+          "retrieved_at": "2026-10-05T22:34:56.935703Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "37fb3638-30e9-50d6-82ba-fa5467aa46ba",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42647266",
+          "retrieved_at": "2026-10-05T22:34:56.935703Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "96fa601c-dd5d-54b5-bc4f-f6db046e3983",
+          "source": "pubmed",
+          "source_record_id": "38307405",
+          "retrieved_at": "2026-10-05T22:34:57.898287Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "86a168fd-7b98-5154-bce5-52cfe3cee256",
+          "source": "pubmed",
+          "source_record_id": "39568406",
+          "retrieved_at": "2026-10-05T22:34:57.898287Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "119ef829-9ebc-53d3-93ce-4b6e8d1268bc",
+          "source": "pubmed",
+          "source_record_id": "39645093",
+          "retrieved_at": "2026-10-05T22:34:57.898287Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "82f46c17-26c5-5146-a86b-7e2b59d2f014",
+          "source": "pubmed",
+          "source_record_id": "25764524",
+          "retrieved_at": "2026-10-05T22:34:57.898287Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "d4387165-cb15-558b-8082-af39fb6990ed",
+          "source": "pubmed",
+          "source_record_id": "28596062",
+          "retrieved_at": "2026-10-05T22:34:57.898287Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "54f89f73-c74a-532f-a11e-455c11975c49",
+          "source": "pubmed",
+          "source_record_id": "40316256",
+          "retrieved_at": "2026-10-05T22:34:57.898287Z",
+          "cache_status": "fetched"
+        }
+      ]
+    },
+    {
+      "id": "1365206a-c800-4a19-b086-5a94a39feb8a",
+      "question": "What does BDNF do?",
+      "mode": "EXPLANATORY",
+      "saved_locally": true,
+      "evidence_count": 22,
+      "mechanism_count": 6,
+      "sources": [
+        {
+          "source": "europe_pmc",
+          "provider_version": "europe-pmc-core-search-1",
+          "query": "(\"BDNF\" OR \"brain-derived neurotrophic factor\") AND (function OR mechanism OR signaling)",
+          "status": "available",
+          "record_count": 8,
+          "retrieved_at": "2026-10-05T22:35:33.825782Z",
+          "detail": null
+        },
+        {
+          "source": "pubmed",
+          "provider_version": "pubmed-esearch-esummary-2",
+          "query": "(\"BDNF\" OR \"brain-derived neurotrophic factor\") AND (function OR mechanism OR signaling)",
+          "status": "available",
+          "record_count": 6,
+          "retrieved_at": "2026-10-05T22:35:34.684115Z",
+          "detail": null
+        },
+        {
+          "source": "europe_pmc",
+          "provider_version": "europe-pmc-core-search-1",
+          "query": "((\"BDNF\" OR \"brain-derived neurotrophic factor\") AND (function OR mechanism OR signaling)) AND (\"no effect\" OR inconsistent OR contradict* OR limitations)",
+          "status": "available",
+          "record_count": 3,
+          "retrieved_at": "2026-10-05T22:35:34.167124Z",
+          "detail": null
+        },
+        {
+          "source": "europe_pmc",
+          "provider_version": "europe-pmc-core-search-1",
+          "query": "TITLE:\"BDNF\" AND PUB_TYPE:review",
+          "status": "available",
+          "record_count": 3,
+          "retrieved_at": "2026-10-05T22:35:34.218774Z",
+          "detail": null
+        },
+        {
+          "source": "uniprot",
+          "provider_version": "uniprotkb-json-search-3",
+          "query": "accession:P23560",
+          "status": "available",
+          "record_count": 2,
+          "retrieved_at": "2026-10-05T22:35:36.898989Z",
+          "detail": null
+        }
+      ],
+      "evidence": [
+        {
+          "id": "31e01d6e-262d-5f45-87bc-1648db98b62d",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42475241",
+          "retrieved_at": "2026-10-05T22:35:33.825782Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "b9dbd64a-458e-5b25-8408-630eaef57a7e",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42831040",
+          "retrieved_at": "2026-10-05T22:35:33.825782Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "11c915db-62c3-57ed-949f-68177a5c8bdc",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42800040",
+          "retrieved_at": "2026-10-05T22:35:33.825782Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "06802a0e-cf47-5294-a611-2d0215dbfca4",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42480875",
+          "retrieved_at": "2026-10-05T22:35:33.825782Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "0d6fdb55-9660-5194-96e8-1202ee61ee4d",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42537402",
+          "retrieved_at": "2026-10-05T22:35:33.825782Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "13261a40-99c4-509c-bfec-d56d19271ab1",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42394379",
+          "retrieved_at": "2026-10-05T22:35:33.825782Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "69837171-5629-55e3-93c6-814c1ad8d923",
+          "source": "europe_pmc",
+          "source_record_id": "PPR:PPR1326829",
+          "retrieved_at": "2026-10-05T22:35:33.825782Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "6c42988d-5154-5e6b-801a-84053d7d08ef",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42486321",
+          "retrieved_at": "2026-10-05T22:35:33.825782Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "c4f69ee9-0bd4-5edd-b070-2a6968330231",
+          "source": "pubmed",
+          "source_record_id": "28623429",
+          "retrieved_at": "2026-10-05T22:35:34.684115Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "07f2b3ad-1c48-582e-b509-c28f2d7e1000",
+          "source": "pubmed",
+          "source_record_id": "38008209",
+          "retrieved_at": "2026-10-05T22:35:34.684115Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "3d541ace-8fcf-5292-aa7d-968caa837e2d",
+          "source": "pubmed",
+          "source_record_id": "32378708",
+          "retrieved_at": "2026-10-05T22:35:34.684115Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "0a4567f1-9e23-59ba-9137-5814b08c3f2d",
+          "source": "pubmed",
+          "source_record_id": "27908981",
+          "retrieved_at": "2026-10-05T22:35:34.684115Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "9139d64a-4df9-593f-8747-9c4f42cafd91",
+          "source": "pubmed",
+          "source_record_id": "26419764",
+          "retrieved_at": "2026-10-05T22:35:34.684115Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "7a39e2a9-0da1-53e2-96c7-61642008757d",
+          "source": "pubmed",
+          "source_record_id": "38905101",
+          "retrieved_at": "2026-10-05T22:35:34.684115Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "ee3b1a50-6645-5e11-bde2-efc07ae35899",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42828579",
+          "retrieved_at": "2026-10-05T22:35:34.167124Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "587d0d64-dab9-5f62-9451-5a6e0e08cc73",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42661679",
+          "retrieved_at": "2026-10-05T22:35:34.167124Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "2e635809-86d3-516b-a543-e01e23c58d00",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42723246",
+          "retrieved_at": "2026-10-05T22:35:34.167124Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "e314e88d-d1ef-5e1a-9feb-e8a68d5c6495",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42219382",
+          "retrieved_at": "2026-10-05T22:35:34.218774Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "e0253788-5069-5760-8051-95366a9fde58",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42693357",
+          "retrieved_at": "2026-10-05T22:35:34.218774Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "aa4af717-aae6-520b-a869-3f1d412dd65c",
+          "source": "europe_pmc",
+          "source_record_id": "MED:42644319",
+          "retrieved_at": "2026-10-05T22:35:34.218774Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "85f58ff5-5089-5508-ad2e-9848d1a29706",
+          "source": "uniprot",
+          "source_record_id": "P23560",
+          "retrieved_at": "2026-10-05T22:35:36.898989Z",
+          "cache_status": "fetched"
+        },
+        {
+          "id": "6318a168-a485-5f54-a06d-aaaf5b58cf29",
+          "source": "uniprot",
+          "source_record_id": "P23560",
+          "retrieved_at": "2026-10-05T22:35:36.898989Z",
+          "cache_status": "fetched"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "phase": "controlled UI fixture: unavailable interpretation API",
+      "type": "error",
+      "message": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    }
+  ],
+  "metrics": {
+    "landing": {
+      "cls": 0.01707081675588349,
+      "navigation": [
+        {
+          "domContentLoaded": 241.40000000037253,
+          "load": 302,
+          "response": 78
+        }
+      ],
+      "paints": [
+        {
+          "name": "first-paint",
+          "time": 252
+        },
+        {
+          "name": "first-contentful-paint",
+          "time": 252
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/0f0cb138dc614e78.css",
+          "kind": "link",
+          "transfer": 8492,
+          "encoded": 8192,
+          "decoded": 39989,
+          "duration": 46.799999999813735
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/webpack-49c23214de0874f3.js",
+          "kind": "link",
+          "transfer": 2197,
+          "encoded": 1897,
+          "decoded": 3601,
+          "duration": 47.59999999962747
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/828-a9b4682be42e0368.js",
+          "kind": "script",
+          "transfer": 61486,
+          "encoded": 61186,
+          "decoded": 222305,
+          "duration": 121.69999999925494
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/f87d460a-4e953a31c12426fe.js",
+          "kind": "script",
+          "transfer": 63176,
+          "encoded": 62876,
+          "decoded": 199864,
+          "duration": 131.09999999962747
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/main-app-717614db0f80ca76.js",
+          "kind": "script",
+          "transfer": 814,
+          "encoded": 514,
+          "decoded": 514,
+          "duration": 42.200000000186265
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/page-7826d882b390ef36.js",
+          "kind": "script",
+          "transfer": 20260,
+          "encoded": 19960,
+          "decoded": 78194,
+          "duration": 79.40000000037253
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/26d4368bf94c0ec4-s.p.woff2",
+          "kind": "css",
+          "transfer": 40540,
+          "encoded": 40240,
+          "decoded": 40240,
+          "duration": 102.79999999981374
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/5611c55482296524-s.p.woff2",
+          "kind": "css",
+          "transfer": 58452,
+          "encoded": 58152,
+          "decoded": 58152,
+          "duration": 94.29999999981374
+        },
+        {
+          "name": "http://127.0.0.1:8000/api/v1/demo-cases",
+          "kind": "fetch",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 107.70000000018626
+        },
+        {
+          "name": "http://127.0.0.1:8000/api/v1/research/status",
+          "kind": "fetch",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 91.79999999981374
+        },
+        {
+          "name": "http://127.0.0.1:8000/api/v1/research/sessions",
+          "kind": "fetch",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 125.6000000005588
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "loaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader Fallback",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans Fallback",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono Fallback",
+          "status": "unloaded"
+        }
+      ],
+      "bodyFont": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\", \"Segoe UI\", Arial, sans-serif",
+      "headingFont": "Newsreader, \"Newsreader Fallback\", Georgia, serif",
+      "longTasks": [
+        {
+          "start": 242.5,
+          "duration": 51
+        }
+      ]
+    },
+    "beforeGraph": {
+      "cls": 0.018661444769965282,
+      "navigation": [
+        {
+          "domContentLoaded": 26.799999999813735,
+          "load": 51.39999999944121,
+          "response": 10.299999999813735
+        }
+      ],
+      "paints": [
+        {
+          "name": "first-paint",
+          "time": 64
+        },
+        {
+          "name": "first-contentful-paint",
+          "time": 64
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/0f0cb138dc614e78.css",
+          "kind": "link",
+          "transfer": 0,
+          "encoded": 8192,
+          "decoded": 39989,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/webpack-49c23214de0874f3.js",
+          "kind": "link",
+          "transfer": 0,
+          "encoded": 1897,
+          "decoded": 3601,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/f87d460a-4e953a31c12426fe.js",
+          "kind": "script",
+          "transfer": 0,
+          "encoded": 62876,
+          "decoded": 199864,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/828-a9b4682be42e0368.js",
+          "kind": "script",
+          "transfer": 0,
+          "encoded": 61186,
+          "decoded": 222305,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/main-app-717614db0f80ca76.js",
+          "kind": "script",
+          "transfer": 0,
+          "encoded": 514,
+          "decoded": 514,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/page-7826d882b390ef36.js",
+          "kind": "script",
+          "transfer": 0,
+          "encoded": 19960,
+          "decoded": 78194,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/5611c55482296524-s.p.woff2",
+          "kind": "css",
+          "transfer": 0,
+          "encoded": 58152,
+          "decoded": 58152,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/2801417b65625cf5-s.woff2",
+          "kind": "css",
+          "transfer": 0,
+          "encoded": 25868,
+          "decoded": 25868,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/26d4368bf94c0ec4-s.p.woff2",
+          "kind": "css",
+          "transfer": 0,
+          "encoded": 40240,
+          "decoded": 40240,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:8000/api/v1/demo-cases",
+          "kind": "fetch",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 16.299999999813735
+        },
+        {
+          "name": "http://127.0.0.1:8000/api/v1/research/status",
+          "kind": "fetch",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 6.2999999998137355
+        },
+        {
+          "name": "http://127.0.0.1:8000/api/v1/research/sessions",
+          "kind": "fetch",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 11.899999999441206
+        },
+        {
+          "name": "http://127.0.0.1:8000/api/v1/research/interpret",
+          "kind": "fetch",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 20.299999999813735
+        },
+        {
+          "name": "http://127.0.0.1:8000/api/v1/investigations",
+          "kind": "fetch",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 27
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "loaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader Fallback",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans Fallback",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono Fallback",
+          "status": "unloaded"
+        }
+      ],
+      "bodyFont": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\", \"Segoe UI\", Arial, sans-serif",
+      "headingFont": "Newsreader, \"Newsreader Fallback\", Georgia, serif",
+      "longTasks": []
+    },
+    "graphOpenToCanvasMs": 481,
+    "afterGraph": {
+      "cls": 0.018661444769965282,
+      "navigation": [
+        {
+          "domContentLoaded": 26.799999999813735,
+          "load": 51.39999999944121,
+          "response": 10.299999999813735
+        }
+      ],
+      "paints": [
+        {
+          "name": "first-paint",
+          "time": 64
+        },
+        {
+          "name": "first-contentful-paint",
+          "time": 64
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/0f0cb138dc614e78.css",
+          "kind": "link",
+          "transfer": 0,
+          "encoded": 8192,
+          "decoded": 39989,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/webpack-49c23214de0874f3.js",
+          "kind": "link",
+          "transfer": 0,
+          "encoded": 1897,
+          "decoded": 3601,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/f87d460a-4e953a31c12426fe.js",
+          "kind": "script",
+          "transfer": 0,
+          "encoded": 62876,
+          "decoded": 199864,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/828-a9b4682be42e0368.js",
+          "kind": "script",
+          "transfer": 0,
+          "encoded": 61186,
+          "decoded": 222305,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/main-app-717614db0f80ca76.js",
+          "kind": "script",
+          "transfer": 0,
+          "encoded": 514,
+          "decoded": 514,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/page-7826d882b390ef36.js",
+          "kind": "script",
+          "transfer": 0,
+          "encoded": 19960,
+          "decoded": 78194,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/5611c55482296524-s.p.woff2",
+          "kind": "css",
+          "transfer": 0,
+          "encoded": 58152,
+          "decoded": 58152,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/2801417b65625cf5-s.woff2",
+          "kind": "css",
+          "transfer": 0,
+          "encoded": 25868,
+          "decoded": 25868,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/26d4368bf94c0ec4-s.p.woff2",
+          "kind": "css",
+          "transfer": 0,
+          "encoded": 40240,
+          "decoded": 40240,
+          "duration": 0
+        },
+        {
+          "name": "http://127.0.0.1:8000/api/v1/demo-cases",
+          "kind": "fetch",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 16.299999999813735
+        },
+        {
+          "name": "http://127.0.0.1:8000/api/v1/research/status",
+          "kind": "fetch",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 6.2999999998137355
+        },
+        {
+          "name": "http://127.0.0.1:8000/api/v1/research/sessions",
+          "kind": "fetch",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 11.899999999441206
+        },
+        {
+          "name": "http://127.0.0.1:8000/api/v1/research/interpret",
+          "kind": "fetch",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 20.299999999813735
+        },
+        {
+          "name": "http://127.0.0.1:8000/api/v1/investigations",
+          "kind": "fetch",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 27
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/2eb1c334.4dd20b4852657796.js",
+          "kind": "script",
+          "transfer": 135021,
+          "encoded": 134721,
+          "decoded": 429892,
+          "duration": 177
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/10.4d54d68dc499f4de.js",
+          "kind": "script",
+          "transfer": 6179,
+          "encoded": 5879,
+          "decoded": 20445,
+          "duration": 33.19999999925494
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "loaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader",
+          "status": "unloaded"
+        },
+        {
+          "family": "Newsreader Fallback",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans Fallback",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono Fallback",
+          "status": "unloaded"
+        }
+      ],
+      "bodyFont": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\", \"Segoe UI\", Arial, sans-serif",
+      "headingFont": "Newsreader, \"Newsreader Fallback\", Georgia, serif",
+      "longTasks": [
+        {
+          "start": 5820.399999999441,
+          "duration": 71
+        }
+      ]
+    },
+    "reducedMotion": {
+      "matches": true,
+      "scrollBehavior": "auto",
+      "buttonTransition": "1e-05s"
+    },
+    "comparison": {
+      "baseline": {
+        "cls": 0,
+        "javascriptEncodedBytes": 145791,
+        "fontEncodedBytes": 0
+      },
+      "current": {
+        "cls": 0.01707081675588349,
+        "javascriptEncodedBytes": 146433,
+        "fontEncodedBytes": 98392
+      },
+      "limitation": "Single local samples on an unthrottled production server; not a field performance benchmark."
+    }
+  },
+  "contrast": [
+    {
+      "name": "landing-light",
+      "samples": [
+        {
+          "tag": "BUTTON",
+          "text": "c·bCausalBio Lab",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "16px",
+          "ratio": 15.78,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Investigate",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 15.78,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Library",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "About",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "◐",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Live research enabled",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "13px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "H1",
+          "text": "Investigate biological mechanisms",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "56px",
+          "ratio": 14.86,
+          "required": 3,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Ask about a biological process, pathway, tissue, molecule, intervention, or symptom.",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "16px",
+          "ratio": 5.23,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "LABEL",
+          "text": "Your research question",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "14px",
+          "ratio": 14.86,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Investigate→",
+          "color": "rgb(252, 251, 248)",
+          "background": [
+            36,
+            72,
+            60
+          ],
+          "fontSize": "15px",
+          "ratio": 9.82,
+          "required": 4.5,
+          "excluded": "disabled control"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Research options",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "14px",
+          "ratio": 5.23,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "LABEL",
+          "text": "Search scopeQuick overviewStandard researchExpanded search",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "14px",
+          "ratio": 14.86,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "LABEL",
+          "text": "Use live scientific sources when available",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "14px",
+          "ratio": 14.86,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Live searches send your question’s scientific terms to public sources. Leave out personal ",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "14px",
+          "ratio": 5.23,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "CausalBio organizes available evidence into mechanisms, sources, and uncertainties. Two to",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "14px",
+          "ratio": 5.23,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "H2",
+          "text": "Example investigations",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "24px",
+          "ratio": 14.86,
+          "required": 3,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Long-term memory retentionCurated investigation",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "15px",
+          "ratio": 14.86,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Activity-related knee pain after repeated jumpingCurated investigation",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "15px",
+          "ratio": 14.86,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Tendon recoveryResearch from scientific sources",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "15px",
+          "ratio": 14.86,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "BDNF signalingResearch from scientific sources",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "15px",
+          "ratio": 14.86,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "H2",
+          "text": "Recent research",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "24px",
+          "ratio": 14.86,
+          "required": 3,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "What is known about selegiline relating to memory, its biological mechanisms, published ev",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "15px",
+          "ratio": 14.86,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "What does BDNF do?Saved October 4, 2026 at 8:30:51 PM UTC",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "15px",
+          "ratio": 14.86,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "What mechanisms influence tendon recovery?Saved October 4, 2026 at 8:30:21 PM UTC",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "15px",
+          "ratio": 14.86,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "All saved investigations →",
+          "color": "rgb(36, 72, 60)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "16px",
+          "ratio": 9.24,
+          "required": 4.5,
+          "excluded": null
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "landing-dark",
+      "samples": [
+        {
+          "tag": "BUTTON",
+          "text": "c·bCausalBio Lab",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            41,
+            42,
+            37
+          ],
+          "fontSize": "16px",
+          "ratio": 12.04,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Investigate",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            41,
+            42,
+            37
+          ],
+          "fontSize": "14px",
+          "ratio": 12.04,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Library",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            41,
+            42,
+            37
+          ],
+          "fontSize": "14px",
+          "ratio": 7.21,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "About",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            41,
+            42,
+            37
+          ],
+          "fontSize": "14px",
+          "ratio": 7.21,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "◐",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            41,
+            42,
+            37
+          ],
+          "fontSize": "14px",
+          "ratio": 7.21,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Live research enabled",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            41,
+            42,
+            37
+          ],
+          "fontSize": "13px",
+          "ratio": 7.21,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "H1",
+          "text": "Investigate biological mechanisms",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "56px",
+          "ratio": 13.16,
+          "required": 3,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Ask about a biological process, pathway, tissue, molecule, intervention, or symptom.",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "16px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "LABEL",
+          "text": "Your research question",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 13.16,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Investigate→",
+          "color": "rgb(34, 35, 31)",
+          "background": [
+            199,
+            216,
+            203
+          ],
+          "fontSize": "15px",
+          "ratio": 10.63,
+          "required": 4.5,
+          "excluded": "disabled control"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Research options",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "LABEL",
+          "text": "Search scopeQuick overviewStandard researchExpanded search",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 13.16,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "LABEL",
+          "text": "Use live scientific sources when available",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 13.16,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Live searches send your question’s scientific terms to public sources. Leave out personal ",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "CausalBio organizes available evidence into mechanisms, sources, and uncertainties. Two to",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "H2",
+          "text": "Example investigations",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "24px",
+          "ratio": 13.16,
+          "required": 3,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Long-term memory retentionCurated investigation",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "15px",
+          "ratio": 13.16,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Activity-related knee pain after repeated jumpingCurated investigation",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "15px",
+          "ratio": 13.16,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Tendon recoveryResearch from scientific sources",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "15px",
+          "ratio": 13.16,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "BDNF signalingResearch from scientific sources",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "15px",
+          "ratio": 13.16,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "H2",
+          "text": "Recent research",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "24px",
+          "ratio": 13.16,
+          "required": 3,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "What is known about selegiline relating to memory, its biological mechanisms, published ev",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "15px",
+          "ratio": 13.16,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "What does BDNF do?Saved October 4, 2026 at 8:30:51 PM UTC",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "15px",
+          "ratio": 13.16,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "What mechanisms influence tendon recovery?Saved October 4, 2026 at 8:30:21 PM UTC",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "15px",
+          "ratio": 13.16,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "All saved investigations →",
+          "color": "rgb(199, 216, 203)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "16px",
+          "ratio": 10.63,
+          "required": 4.5,
+          "excluded": null
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "live-summary-light",
+      "samples": [
+        {
+          "tag": "BUTTON",
+          "text": "c·bCausalBio Lab",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "16px",
+          "ratio": 15.78,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Investigate",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 15.78,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Library",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "About",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "◐",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Live research enabled",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "13px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "← New investigation",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "15px",
+          "ratio": 5.23,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Edit question",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "15px",
+          "ratio": 5.23,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Research investigation · October 5, 2026",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "14px",
+          "ratio": 5.23,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "H1",
+          "text": "What mechanisms influence tendon recovery?",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "42px",
+          "ratio": 14.86,
+          "required": 3,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Provisional findings from scientific sources. These extracts have not been reviewed as cur",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "14px",
+          "ratio": 5.23,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "H2",
+          "text": "Research summary",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "30px",
+          "ratio": 14.86,
+          "required": 3,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "This review synthesizes the dual regulatory effects of mechanical loading on Achilles tend",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "16px",
+          "ratio": 14.86,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "1",
+          "color": "rgb(36, 72, 60)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "13px",
+          "ratio": 9.24,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Context and limitations",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "14px",
+          "ratio": 5.23,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Source-reported statement; source context and limitations apply. It is not independently a",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "14px",
+          "ratio": 5.23,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Recent evidence highlights the central role of reactive oxygen species (ROS), originating ",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "16px",
+          "ratio": 14.86,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "6",
+          "color": "rgb(36, 72, 60)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "13px",
+          "ratio": 9.24,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Context and limitations",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "14px",
+          "ratio": 5.23,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Source-reported statement; source context and limitations apply. It is not independently a",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "14px",
+          "ratio": 5.23,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Mesenchymal stem cells (MSCs), adipose-derived stem cells (ADSCs), tendon-derived stem cel",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "16px",
+          "ratio": 14.86,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "2",
+          "color": "rgb(36, 72, 60)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "13px",
+          "ratio": 9.24,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Context and limitations",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            246,
+            244,
+            239
+          ],
+          "fontSize": "14px",
+          "ratio": 5.23,
+          "required": 4.5,
+          "excluded": null
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "citation-drawer-light",
+      "samples": [
+        {
+          "tag": "H2",
+          "text": "Reference 1",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "24px",
+          "ratio": 15.78,
+          "required": 3,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Close",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "15px",
+          "ratio": 15.78,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "H3",
+          "text": "Effects of Mechanical Loading on the Structure and Function of the Achilles Tendon: From H",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "20px",
+          "ratio": 15.78,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Guan L, Zhang W, Wang H, Zhang Y, Sun J, Lu J · 2026",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "europe_pmc · Review",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Provisional evidence · Evidence retrieved October 5, 2026",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "This source supports the selected finding. Its original context and limitations still appl",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Source-reported statement; source context and limitations apply. It is not independently a",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DT",
+          "text": "Authors",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DD",
+          "text": "Guan L, Zhang W, Wang H, Zhang Y, Sun J, Lu J",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 15.78,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DT",
+          "text": "Journal",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DD",
+          "text": "Not recorded",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 15.78,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DT",
+          "text": "Organism",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DD",
+          "text": "Not recorded",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 15.78,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DT",
+          "text": "Population",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DD",
+          "text": "Not recorded",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 15.78,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DT",
+          "text": "Tissue",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DD",
+          "text": "Not recorded",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 15.78,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DT",
+          "text": "Cell type",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DD",
+          "text": "Not recorded",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 15.78,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DT",
+          "text": "Study design",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DD",
+          "text": "review-article, Review, Journal Article",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 15.78,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DT",
+          "text": "Experimental context",
+          "color": "rgb(104, 102, 95)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 5.55,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "DD",
+          "text": "Not recorded",
+          "color": "rgb(32, 32, 29)",
+          "background": [
+            252,
+            251,
+            248
+          ],
+          "fontSize": "14px",
+          "ratio": 15.78,
+          "required": 4.5,
+          "excluded": null
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "live-summary-dark",
+      "samples": [
+        {
+          "tag": "BUTTON",
+          "text": "c·bCausalBio Lab",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            41,
+            42,
+            37
+          ],
+          "fontSize": "16px",
+          "ratio": 12.04,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Investigate",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            41,
+            42,
+            37
+          ],
+          "fontSize": "14px",
+          "ratio": 12.04,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Library",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            41,
+            42,
+            37
+          ],
+          "fontSize": "14px",
+          "ratio": 7.21,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "About",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            41,
+            42,
+            37
+          ],
+          "fontSize": "14px",
+          "ratio": 7.21,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "◐",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            41,
+            42,
+            37
+          ],
+          "fontSize": "14px",
+          "ratio": 7.21,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Live research enabled",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            41,
+            42,
+            37
+          ],
+          "fontSize": "13px",
+          "ratio": 7.21,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "← New investigation",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "15px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Edit question",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "15px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Research investigation · October 5, 2026",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "H1",
+          "text": "What mechanisms influence tendon recovery?",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "42px",
+          "ratio": 13.16,
+          "required": 3,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Provisional findings from scientific sources. These extracts have not been reviewed as cur",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "H2",
+          "text": "Research summary",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "30px",
+          "ratio": 13.16,
+          "required": 3,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "This review synthesizes the dual regulatory effects of mechanical loading on Achilles tend",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "16px",
+          "ratio": 13.16,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "1",
+          "color": "rgb(178, 201, 187)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "13px",
+          "ratio": 9.01,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Context and limitations",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Source extract · preliminary",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Source-reported statement; source context and limitations apply. It is not independently a",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Recent evidence highlights the central role of reactive oxygen species (ROS), originating ",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "16px",
+          "ratio": 13.16,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "6",
+          "color": "rgb(178, 201, 187)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "13px",
+          "ratio": 9.01,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Context and limitations",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Source extract · preliminary",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Source-reported statement; source context and limitations apply. It is not independently a",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Mesenchymal stem cells (MSCs), adipose-derived stem cells (ADSCs), tendon-derived stem cel",
+          "color": "rgb(238, 234, 224)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "16px",
+          "ratio": 13.16,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "2",
+          "color": "rgb(178, 201, 187)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "13px",
+          "ratio": 9.01,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Context and limitations",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        },
+        {
+          "tag": "P",
+          "text": "Source extract · preliminary",
+          "color": "rgb(187, 183, 170)",
+          "background": [
+            34,
+            35,
+            31
+          ],
+          "fontSize": "14px",
+          "ratio": 7.88,
+          "required": 4.5,
+          "excluded": null
+        }
+      ],
+      "failures": []
+    }
+  ],
+  "limitations": [
+    "Screenshots require visual review; their existence does not establish design quality.",
+    "Contrast samples cover visible rendered text with solid backgrounds, not all WCAG criteria or all UI states.",
+    "Injected loading/error/partial/empty states are explicitly labeled; they are not observations of provider availability.",
+    "Production research can reuse provider cache; source statuses and retrieval timestamps are retained above."
+  ]
+}

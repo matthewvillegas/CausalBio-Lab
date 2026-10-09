@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use CausalBio Lab in research or teaching, please cite the software and the primary studies represented in the selected evidence pack."
+title: "CausalBio Lab"
+type: software
+version: 1.0.0
+authors:
+  - name: "CausalBio Lab contributors"
+abstract: >-
+  Local-first research software for provenance-rich biological mechanism graphs,
+  competing-hypothesis comparison, curated Petri-net simulation, and explicit
+  uncertainty eligibility.
+license: Apache-2.0
+keywords:
+  - computational biology
+  - causal knowledge graph
+  - evidence provenance
+  - Petri net
+  - research software

@@ -1,0 +1,156 @@
+{
+  "hitCount": 153,
+  "request": {
+    "queryString": "TITLE_ABS:\"tendon healing\" AND OPEN_ACCESS:Y AND HAS_ABSTRACT:Y AND LICENSE:\"cc by\" AND FIRST_PDATE:[2023-01-01 TO 2025-12-31]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 1,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "41303871",
+        "source": "MED",
+        "title": "Avocado-Soybean Unsaponifiables Enhance Tendon Healing via Anti-Inflammatory and Antioxidant Mechanisms in a Rat Achilles Injury Model.",
+        "pmid": "41303871",
+        "pmcid": "PMC12654124",
+        "doi": "10.3390/medicina61112035",
+        "pubYear": "2025",
+        "license": "cc by",
+        "abstractText": "<i>Background and Objectives:</i> Tendon healing is a multifactorial process influenced by inflammation and oxidative stress. Avocado-soybean unsaponifiables (ASU), recognized for their anti-inflammatory and antioxidant properties in osteoarthritis, have not yet been evaluated in tendon repair. This study aimed to investigate the effects of systemic ASU administration on histological, biomechanical, and biochemical parameters of tendon healing in a rat Achilles tendon injury model. <i>Materials and Methods:</i> Twenty male Wistar rats underwent bilateral Achilles tendon transection and repair. The ASU group received intraperitoneal ASU (300 mg/kg/day) for four weeks; controls received saline. Right tendons were analyzed histologically using a semiquantitative scoring system adapted from Curtis-DeLee, Bonar, and Modified Soslowsky criteria. Left tendons were tested biomechanically for maximum force, displacement, stress, stiffness, and energy parameters. Serum interleukin-1β (IL-1β), interleukin-6 (IL-6), tumor necrosis factor-α (TNF-α), total antioxidant status (TAS), total oxidant status (TOS), and oxidative stress index (OSI) were measured by ELISA. <i>Results:</i> ASU markedly improved histological healing with better collagen alignment, reduced inflammation, and normalized tenocyte morphology (<i>p</i> < 0.001). Biomechanical strength increased, with higher maximum force (<i>p</i> = 0.002), displacement (<i>p</i> = 0.004), stress (<i>p</i> = 0.001), and total energy to failure (<i>p</i> = 0.001). Serum IL-1β, IL-6, and TNF-α levels were lower (<i>p</i> < 0.001), while TAS increased and TOS/OSI decreased (<i>p</i> < 0.001). <i>Conclusions:</i> Systemic ASU administration enhances tendon healing by improving tissue organization, increasing mechanical strength, and modulating systemic inflammation and oxidative stress. These findings suggest that ASU may serve as a safe, clinically relevant adjunct therapy to promote tendon regeneration.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dinç M",
+              "lastName": "Dinç",
+              "firstName": "Mustafa",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3002-5028"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Orthopedics and Traumatology Clinics, Bursa City Hospital, Bursa 16250, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Soydemir ÖC",
+              "lastName": "Soydemir",
+              "firstName": "Ömer Cevdet",
+              "initials": "ÖC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8493-8562"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Orthopedics and Traumatology Clinics, Bursa City Hospital, Bursa 16250, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bayrak HÇ",
+              "lastName": "Bayrak",
+              "firstName": "Hünkar Çağdaş",
+              "initials": "HÇ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0003-4963-9980"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Orthopedics and Traumatology Clinics, Çekirge State Hospital, Bursa 16090, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Karasu R",
+              "lastName": "Karasu",
+              "firstName": "Recep",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0628-5794"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Orthopedics and Traumatology Clinics, Bursa City Hospital, Bursa 16250, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Aykaç B",
+              "lastName": "Aykaç",
+              "firstName": "Bilal",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6180-2467"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Orthopedics and Traumatology Clinics, Bursa City Hospital, Bursa 16250, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Topcu ME",
+              "lastName": "Topcu",
+              "firstName": "Mehmet Emre",
+              "initials": "ME",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0007-1631-8805"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Faculty of Veterinary Medicine, Bursa Uludag University, Bursa 16059, Turkey."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorString": "Dinç M, Soydemir ÖC, Bayrak HÇ, Karasu R, Aykaç B, Topcu ME.",
+        "journalInfo": {
+          "issue": "11",
+          "volume": "61",
+          "journalIssueId": 4056297,
+          "dateOfPublication": "2025 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Medicina (Kaunas)",
+            "title": "Medicina (Kaunas, Lithuania)",
+            "essn": "1648-9144",
+            "issn": "1010-660X",
+            "nlmid": "9425208",
+            "isoabbreviation": "Medicina (Kaunas)"
+          },
+          "printPublicationDate": "2025-11-01"
+        },
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+[build-system]
+requires = ["hatchling>=1.28.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "causalbio-lab"
+version = "1.0.0"
+description = "Evidence-grounded causal graphs, Petri-net simulations, and Bayesian uncertainty analysis for biological mechanism research."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = { text = "Apache-2.0" }
+authors = [{ name = "CausalBio Lab contributors" }]
+dependencies = [
+  "fastapi==0.141.1",
+  "httpx==0.28.1",
+  "networkx==3.6.1",
+  "numpy>=2.2,<3",
+  "pydantic==2.13.4",
+  "pydantic-settings>=2.12,<3",
+  "scipy==1.17.1",
+  "sqlalchemy==2.0.51",
+  "uvicorn[standard]==0.52.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "mypy==2.3.0",
+  "pre-commit>=4.2,<5",
+  "pytest==9.1.1",
+  "pytest-cov>=7,<8",
+  "ruff==0.16.1",
+  # pre-commit uses virtualenv; keep its environment creator above the security fix.
+  "virtualenv>=21.7.13,<22",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = [
+  "packages/causalbio-core/src/causalbio",
+  "apps/api/src/causalbio_api",
+]
+
+[tool.hatch.build]
+dev-mode-dirs = ["packages/causalbio-core/src", "apps/api/src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-config --strict-markers"
+testpaths = ["packages/causalbio-core/tests", "apps/api/tests"]
+pythonpath = ["packages/causalbio-core/src", "apps/api/src"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+extend-exclude = ["apps/web", "artifacts", "data/cache"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
+ignore = ["E501"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+plugins = ["pydantic.mypy"]
+mypy_path = ["packages/causalbio-core/src", "apps/api/src"]
+exclude = ["apps/web", "scripts"]
+
+[[tool.mypy.overrides]]
+module = ["networkx.*", "scipy.*"]
+ignore_missing_imports = true

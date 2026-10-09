@@ -1,0 +1,35 @@
+{
+  "name": "causalbio-lab",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.2.2",
+  "engines": {
+    "node": ">=22.19 <25"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c blue,green \"pnpm dev:api\" \"pnpm --filter @causalbio/web dev --hostname 127.0.0.1\"",
+    "dev:api": "node scripts/python-run.mjs -m uvicorn causalbio_api.main:app --reload --port 8000",
+    "build": "pnpm --filter @causalbio/web build",
+    "lint": "pnpm --filter @causalbio/web lint",
+    "format:web": "pnpm --filter @causalbio/web format:check",
+    "typecheck": "pnpm --filter @causalbio/web typecheck",
+    "test": "pnpm --filter @causalbio/web test",
+    "test:e2e": "pnpm --filter @causalbio/web test:e2e",
+    "seed": "node scripts/python-run.mjs scripts/seed_demo_data.py",
+    "eval": "node scripts/python-run.mjs scripts/run_evals.py",
+    "graph:validate": "node scripts/python-run.mjs scripts/validate_graph.py",
+    "python:format": "node scripts/python-run.mjs -m ruff format --check .",
+    "python:lint": "node scripts/python-run.mjs -m ruff check .",
+    "python:typecheck": "node scripts/python-run.mjs -m mypy packages/causalbio-core/src apps/api/src packages/causalbio-core/tests apps/api/tests",
+    "python:test": "node scripts/python-run.mjs -m pytest",
+    "python:coverage": "node scripts/python-run.mjs -m pytest --cov=causalbio --cov=causalbio_api --cov-report=term-missing --cov-report=json:artifacts/release-coverage.json --cov-report=xml:artifacts/release-coverage.xml",
+    "docs:check": "node scripts/python-run.mjs scripts/check_docs.py",
+    "public:check": "node scripts/python-run.mjs scripts/check_public_files.py",
+    "release:copy": "node scripts/create-clean-copy.mjs",
+    "verify:python": "pnpm python:format && pnpm python:lint && pnpm python:typecheck && pnpm python:test && pnpm eval",
+    "verify": "pnpm verify:python && pnpm format:web && pnpm lint && pnpm typecheck && pnpm test && pnpm build && pnpm test:e2e"
+  },
+  "devDependencies": {
+    "concurrently": "9.2.1"
+  }
+}

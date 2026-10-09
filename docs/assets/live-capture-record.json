@@ -1,0 +1,93 @@
+{
+  "captured_at": "2026-10-05T22:36:30.889Z",
+  "sources_mocked": false,
+  "captures": [
+    "live-tendon-overview.png",
+    "live-tendon-evidence.png",
+    "bdnf-explanation.png",
+    "safe-research-alternative.png",
+    "live-research-narrow-dark.png"
+  ],
+  "results": [
+    {
+      "id": "f21f47c8-727e-450f-a1cc-caa3b1a49874",
+      "question": "What mechanisms influence tendon recovery?",
+      "mode": "GENERAL_EVIDENCE_SUMMARY",
+      "records": 14,
+      "groups": 6,
+      "sources": [
+        {
+          "source": "europe_pmc",
+          "status": "cached"
+        },
+        {
+          "source": "pubmed",
+          "status": "cached"
+        },
+        {
+          "source": "europe_pmc",
+          "status": "cached"
+        },
+        {
+          "source": "europe_pmc",
+          "status": "cached"
+        }
+      ]
+    },
+    {
+      "id": "32421e32-a0af-48a3-89d1-4209a7a212e8",
+      "question": "What does BDNF do?",
+      "mode": "EXPLANATORY",
+      "records": 22,
+      "groups": 6,
+      "sources": [
+        {
+          "source": "europe_pmc",
+          "status": "cached"
+        },
+        {
+          "source": "pubmed",
+          "status": "cached"
+        },
+        {
+          "source": "europe_pmc",
+          "status": "cached"
+        },
+        {
+          "source": "europe_pmc",
+          "status": "cached"
+        },
+        {
+          "source": "uniprot",
+          "status": "cached"
+        }
+      ]
+    },
+    {
+      "id": "9f50ec43-bc03-4ad3-88e9-a4e9623f06af",
+      "question": "What is known about selegiline relating to memory, its biological mechanisms, published evidence, limitations, and safety concerns?",
+      "mode": "EXPLANATORY",
+      "records": 18,
+      "groups": 6,
+      "sources": [
+        {
+          "source": "europe_pmc",
+          "status": "cached"
+        },
+        {
+          "source": "pubmed",
+          "status": "available"
+        },
+        {
+          "source": "europe_pmc",
+          "status": "cached"
+        },
+        {
+          "source": "europe_pmc",
+          "status": "cached"
+        }
+      ]
+    }
+  ],
+  "browser_warnings_or_errors": []
+}

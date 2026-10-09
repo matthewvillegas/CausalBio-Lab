@@ -1,0 +1,48 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "17086200",
+      "30842037"
+    ],
+    "17086200": {
+      "uid": "17086200",
+      "pubdate": "2006 Nov 30",
+      "source": "Nature",
+      "authors": [
+        {"name": "Marshall L", "authtype": "Author"},
+        {"name": "Helgadóttir H", "authtype": "Author"},
+        {"name": "Mölle M", "authtype": "Author"},
+        {"name": "Born J", "authtype": "Author"}
+      ],
+      "title": "Boosting slow oscillations during sleep potentiates memory",
+      "fulljournalname": "Nature",
+      "articleids": [
+        {"idtype": "pubmed", "value": "17086200"},
+        {"idtype": "doi", "value": "10.1038/nature05278"}
+      ],
+      "pubtype": ["Journal Article"]
+    },
+    "30842037": {
+      "uid": "30842037",
+      "pubdate": "2019 Jul-Aug",
+      "source": "Brain Stimul",
+      "authors": [
+        {"name": "Bueno-Lopez A", "authtype": "Author"},
+        {"name": "Eggert T", "authtype": "Author"},
+        {"name": "Dorn H", "authtype": "Author"},
+        {"name": "Danker-Hopfe H", "authtype": "Author"}
+      ],
+      "title": "Slow oscillatory transcranial direct current stimulation (so-tDCS) during slow wave sleep has no effects on declarative memory in healthy young subjects",
+      "fulljournalname": "Brain stimulation",
+      "articleids": [
+        {"idtype": "pubmed", "value": "30842037"},
+        {"idtype": "doi", "value": "10.1016/j.brs.2019.02.012"}
+      ],
+      "pubtype": ["Journal Article"]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-10-05T22:36:38.734Z",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "captures": [
+    "landing.png",
+    "investigation-overview.png",
+    "focused-pathway.png",
+    "evidence-detail.png",
+    "causal-graph.png",
+    "pathway-simulation.png",
+    "bayesian-demonstration.png",
+    "narrow-dark-mechanisms.png"
+  ],
+  "browser_warnings_or_errors": []
+}

@@ -1,0 +1,62 @@
+minimum_pre_commit_version: "4.2.0"
+default_install_hook_types: [pre-commit, pre-push]
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-added-large-files
+        args: [--maxkb=2000]
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: [--fix=lf]
+      - id: trailing-whitespace
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.16.1
+    hooks:
+      - id: ruff-check
+        args: [--fix]
+      - id: ruff-format
+
+  - repo: local
+    hooks:
+      - id: python-types
+        name: strict Python type checking
+        entry: python -m mypy packages/causalbio-core/src apps/api/src
+        language: system
+        pass_filenames: false
+        stages: [pre-push]
+        files: ^(packages/causalbio-core/src|apps/api/src)/.*\.py$
+      - id: python-tests
+        name: Python test suite
+        entry: python -m pytest -q
+        language: system
+        pass_filenames: false
+        stages: [pre-push]
+        files: ^(packages/causalbio-core|apps/api|data/demo|data/evals)/
+      - id: frontend-lint
+        name: frontend lint
+        entry: pnpm lint
+        language: system
+        pass_filenames: false
+        stages: [pre-push]
+        files: ^(apps/web|package\.json|pnpm-lock\.yaml|pnpm-workspace\.yaml)
+      - id: frontend-format
+        name: frontend formatting
+        entry: pnpm format:web
+        language: system
+        pass_filenames: false
+        stages: [pre-push]
+        files: ^(apps/web|package\.json|pnpm-lock\.yaml|pnpm-workspace\.yaml)
+      - id: frontend-types
+        name: frontend type checking
+        entry: pnpm typecheck
+        language: system
+        pass_filenames: false
+        stages: [pre-push]
+        files: ^(apps/web|package\.json|pnpm-lock\.yaml|pnpm-workspace\.yaml)

@@ -1,0 +1,81 @@
+{
+  "version": "1.0.0",
+  "notice": "Known published human peptides only. No sequence generation, synthesis instructions, efficacy claims, or personal-use guidance.",
+  "peptides": [
+    {
+      "slug": "substance-p",
+      "name": "Substance P",
+      "sequence": "RPKPQQFFGLM",
+      "organism": "Homo sapiens",
+      "precursor": "Protachykinin-1 (TAC1)",
+      "precursor_uniprot": "P20366",
+      "source_url": "https://www.uniprot.org/uniprotkb/P20366/entry",
+      "terminal_modifications": ["C-terminal amidation"],
+      "known_targets": [
+        {
+          "name": "Neurokinin 1 receptor",
+          "identifier": "UniProt:P25103",
+          "relationship": "Cognate receptor agonist",
+          "source_url": "https://www.uniprot.org/uniprotkb/P20366/entry"
+        }
+      ],
+      "reported_biological_context": [
+        "Tachykinin neuropeptide signaling",
+        "Sensory-neuron and neurokinin-receptor research",
+        "Inflammation and pain-transmission research contexts"
+      ],
+      "available_structures": [
+        {
+          "identifier": "PDB:7P00",
+          "description": "Substance-P-bound human NK1 receptor complex resolved by cryo-EM",
+          "source_url": "https://www.rcsb.org/structure/7P00"
+        },
+        {
+          "identifier": "PDB:7RMG",
+          "description": "Substance-P-bound active human NK1 receptor complex resolved by cryo-EM",
+          "source_url": "https://www.rcsb.org/structure/7RMG"
+        },
+        {
+          "identifier": "PDB:2KSA",
+          "description": "NMR ensemble of Substance P in membrane-mimetic bicelles",
+          "source_url": "https://www.rcsb.org/structure/2KSA"
+        }
+      ],
+      "evidence_stage": "Reviewed database annotation plus experimental receptor-bound and membrane-mimetic structures",
+      "measured_properties": {},
+      "annotation_limitations": [
+        "Database target annotations do not establish efficacy or safety for any personal use.",
+        "Structures use engineered experimental systems and do not represent every physiological conformation."
+      ]
+    },
+    {
+      "slug": "neurokinin-a",
+      "name": "Neurokinin A",
+      "sequence": "HKTDSFVGLM",
+      "organism": "Homo sapiens",
+      "precursor": "Protachykinin-1 (TAC1)",
+      "precursor_uniprot": "P20366",
+      "source_url": "https://www.uniprot.org/uniprotkb/P20366/entry",
+      "terminal_modifications": ["C-terminal amidation"],
+      "known_targets": [
+        {
+          "name": "Neurokinin 2 receptor",
+          "identifier": "UniProt:P21452",
+          "relationship": "Preferred tachykinin receptor agonist",
+          "source_url": "https://www.uniprot.org/uniprotkb/P20366/entry"
+        }
+      ],
+      "reported_biological_context": [
+        "Tachykinin neuropeptide signaling",
+        "Smooth-muscle and neurokinin-receptor research"
+      ],
+      "available_structures": [],
+      "evidence_stage": "Reviewed precursor and receptor annotation; no peptide-bound structure bundled",
+      "measured_properties": {},
+      "annotation_limitations": [
+        "The empty structure list means no structure was curated into this small pack, not that none exists.",
+        "Target annotation does not establish efficacy or safety for any personal use."
+      ]
+    }
+  ]
+}

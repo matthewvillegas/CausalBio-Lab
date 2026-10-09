@@ -1,0 +1,504 @@
+{
+  "metadata": {
+    "title": "Activity-related knee pain after repeated jumping",
+    "clarification_label": "activity-related knee pain",
+    "version": "knee-pain-1.1.0",
+    "description": "A curated educational map comparing exposure-related patellar-tendon, local-load, and patellofemoral mechanism families without diagnosing a condition.",
+    "educational_notice": "Curated and educational, not comprehensive. Mechanical loading, tissue adaptation, diagnoses, nociception, and reported pain are not treated as interchangeable.",
+    "curated_at": "2026-08-03T12:00:00+00:00",
+    "retrieved_at": "2026-08-03",
+    "example_questions": [
+      "What biological mechanisms could contribute to knee pain after repeated jumping?",
+      "Why might my knee hurt after basketball jumping?"
+    ],
+    "display_order": 1,
+    "recognition_terms": [
+      "knee",
+      "patellar",
+      "patellofemoral",
+      "jumper's knee",
+      "jumping",
+      "landing"
+    ],
+    "ambiguous_terms": {},
+    "context_defaults": {
+      "requested_outcome": "activity-related knee pain",
+      "symptom_or_process": "pain during or after repeated jumping or landing",
+      "anatomical_region": "knee",
+      "tissue": "patellar tendon and patellofemoral structures considered as competing contexts",
+      "activity": "repeated jumping and landing",
+      "exposure": "repeated mechanical loading",
+      "timing": "during or after activity",
+      "duration": null,
+      "population": "general research context; not an individual diagnosis",
+      "condition": null,
+      "candidate_intervention": null,
+      "wants_mechanisms": true,
+      "wants_interventions": true,
+      "important_uncertainty": [
+        "Pain location and provoking tasks do not identify one anatomical diagnosis.",
+        "Mechanical load, tissue adaptation, pain sensitivity, and clinical symptoms are distinct constructs."
+      ]
+    },
+    "interpreted_summary": "We interpreted this as an educational mechanism question about activity-related knee pain after repeated jumping, not as a diagnosis of patellar tendinopathy or patellofemoral pain.",
+    "question_classes": [
+      "symptom_mechanism",
+      "pathway"
+    ],
+    "expected_hypothesis_keys": [
+      "exposure_tendon",
+      "local_load",
+      "patellofemoral_competing"
+    ],
+    "numerical_data": {
+      "explanation": "No approved numerical observations, identified unknown parameters, priors, likelihood, or identifiability review are included in this educational pack."
+    }
+  },
+  "entities": [
+    {"key": "repeated_jumping", "name": "Repeated jumping", "aliases": ["jump training"], "type": "behavior", "description": "Repeated jump and landing exposures; frequency, intensity, history, and recovery context are separate variables."},
+    {"key": "volleyball_exposure", "name": "Weekly volleyball exposure", "type": "behavior", "description": "Training hours and match sets used as exposure proxies in a prospective youth-volleyball cohort."},
+    {"key": "landing_mechanics", "name": "Landing mechanics", "type": "biomechanical_force", "description": "Observable movement and velocity features during landing; they do not identify tissue pathology."},
+    {"key": "estimated_tendon_force", "name": "Estimated patellar-tendon force", "type": "biomechanical_force", "description": "Model-estimated tendon force and loading rate, not a direct in-vivo force measurement."},
+    {"key": "local_tendon_stress", "name": "Local patellar-tendon stress state", "type": "phenotype", "description": "A model-level tissue stress construct that is neither measured damage nor a diagnosis."},
+    {"key": "tendon_adaptation", "name": "Tendon mechanical-property adaptation", "type": "biological_process", "description": "Changes in stiffness, Young’s modulus, or cross-sectional area after chronic loading; these properties are not equivalent to pain relief."},
+    {"key": "recovery_capacity", "name": "Recovery capacity", "type": "biological_process", "description": "An explicitly latent systems-model construct representing recovery processes; no bundled study directly measures it as one variable."},
+    {"key": "patellar_tendinopathy", "name": "Clinically identified patellar tendinopathy", "aliases": ["jumper's knee"], "type": "disease_or_condition", "description": "A clinical research population kept distinct from undifferentiated activity-related knee pain."},
+    {"key": "nociceptive_signaling", "name": "Nociceptive signaling state", "type": "biological_process", "description": "A model-level signaling process related to threat and pain processing; it is not directly measured by the bundled clinical trials."},
+    {"key": "activity_knee_pain", "name": "Activity-related knee pain", "aliases": ["knee pain after jumping"], "type": "symptom", "description": "Pain during or after activity, which can arise from multiple tissues and mechanisms and cannot determine a diagnosis by itself."},
+    {"key": "force_distribution", "name": "Force-distribution capacity", "type": "phenotype", "description": "An abstract biomechanical capacity concept involving strength and movement, not a directly validated diagnostic metric."},
+    {"key": "patellofemoral_load", "name": "Patellofemoral mechanical load", "type": "biomechanical_force", "description": "Mechanical loading at the patellofemoral joint, represented as a competing anatomical branch."},
+    {"key": "patellofemoral_pain", "name": "Patellofemoral pain population", "type": "disease_or_condition", "description": "A clinical anterior-knee-pain population distinct from patellar tendinopathy."},
+    {"key": "progressive_loading", "name": "Progressive tendon-loading program", "type": "therapy", "description": "A staged rehabilitation program evaluated in people with confirmed patellar tendinopathy."},
+    {"key": "isometric_exercise", "name": "Isometric exercise", "type": "therapy", "description": "Static muscle loading studied for tendinopathy pain, with variable responses and no established universal superiority."},
+    {"key": "acute_pain_response", "name": "Acute pain response", "type": "symptom", "description": "Short-term change in reported pain, kept distinct from tissue adaptation or structural healing."},
+    {"key": "education_exercise", "name": "Education plus supervised exercise", "type": "therapy", "description": "A combined program studied in adolescents with patellofemoral pain, not patellar tendinopathy."},
+    {"key": "reported_recovery", "name": "Self-reported recovery", "type": "phenotype", "description": "Participant-reported recovery outcome in a clinical trial; not a molecular or structural measure."},
+    {"key": "inflammatory_state", "name": "Inflammatory-mediator state", "type": "immune_mediator", "description": "An abstract state in the educational Petri model; no biomarker inference is made for an individual."}
+  ],
+  "evidence": [
+    {
+      "key": "janssen_2013",
+      "title": "Predicting the patellar tendon force generated when landing from a jump",
+      "authors": ["I. Janssen", "J. R. Steele", "B. J. Munro", "N. A. T. Brown"],
+      "year": 2013,
+      "journal": "Medicine & Science in Sports & Exercise",
+      "identifiers": [
+        {"namespace": "DOI", "value": "10.1249/MSS.0b013e31827f0314", "url": "https://doi.org/10.1249/MSS.0b013e31827f0314"},
+        {"namespace": "PMID", "value": "23247704", "url": "https://pubmed.ncbi.nlm.nih.gov/23247704/"}
+      ],
+      "study_type": "cross_sectional",
+      "population": {"description": "50 skilled or highly skilled volleyball players performing a lateral stop-jump", "species": "human", "sample_size": 50},
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23247704/",
+      "context": {"species": "human", "population": "volleyball players", "tissue": "patellar tendon", "condition": "laboratory lateral stop-jump"},
+      "result_direction": "supports",
+      "effect_estimate": {"measure": "variance in estimated tendon loading rate explained by regression model", "value": 0.70, "unit": "proportion", "source_note": "The reported model explained 70% of loading-rate variance; this is not a causal effect size."},
+      "uncertainty_measure": "Peak-force and loading-rate regression models explained 52% and 70% of estimated variance, respectively.",
+      "limitations": ["Tendon force was estimated rather than directly measured.", "Cross-sectional modeling cannot establish future pain or tendinopathy causation.", "Volleyball landing context may not generalize to every activity."],
+      "evidence_note": "Quadriceps strength and selected landing velocities contributed to models of estimated peak patellar-tendon force and loading rate during a stop-jump.",
+      "supporting_excerpt": null,
+      "retrieved_at": "2026-08-03",
+      "source_adapter": "manual PubMed verification",
+      "curation_status": "VALIDATED",
+      "grade": "E"
+    },
+    {
+      "key": "bohm_2015",
+      "title": "Human tendon adaptation in response to mechanical loading: a systematic review and meta-analysis of exercise intervention studies on healthy adults",
+      "authors": ["S. Bohm", "F. Mersmann", "A. Arampatzis"],
+      "year": 2015,
+      "journal": "Sports Medicine - Open",
+      "identifiers": [
+        {"namespace": "DOI", "value": "10.1186/s40798-015-0009-9", "url": "https://doi.org/10.1186/s40798-015-0009-9"},
+        {"namespace": "PMID", "value": "27747846", "url": "https://pubmed.ncbi.nlm.nih.gov/27747846/"},
+        {"namespace": "PMCID", "value": "PMC4532714", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4532714/"}
+      ],
+      "study_type": "meta_analysis",
+      "population": {"description": "27 longitudinal studies, 37 interventions, and 264 healthy adults with patellar or Achilles-tendon outcomes", "species": "human", "sample_size": 264, "age_range": "18–50"},
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27747846/",
+      "context": {"species": "human", "population": "healthy adults", "tissue": "patellar or Achilles tendon", "temporal_context": "exercise interventions lasting at least eight weeks"},
+      "result_direction": "supports",
+      "effect_estimate": {"measure": "standardized mean difference in tendon stiffness", "value": 0.70, "unit": "SMD", "interval_low": 0.51, "interval_high": 0.88, "interval_level": 0.95, "source_note": "Meta-analytic effect across included human loading interventions."},
+      "uncertainty_measure": "Stiffness SMD 0.70 (95% CI 0.51–0.88); Young’s modulus 0.69 (0.36–1.03); cross-sectional area 0.24 (0.07–0.42).",
+      "limitations": ["Healthy tendons only.", "Patellar and Achilles studies were synthesized together.", "Mechanical properties are not synonymous with capacity, tissue health, injury prevention, or pain relief."],
+      "evidence_note": "Longitudinal loading interventions in healthy adults were associated with increases in tendon stiffness, Young’s modulus, and smaller changes in cross-sectional area.",
+      "supporting_excerpt": null,
+      "retrieved_at": "2026-08-03",
+      "source_adapter": "manual PubMed/PMC verification",
+      "curation_status": "VALIDATED",
+      "grade": "A"
+    },
+    {
+      "key": "visnes_2013",
+      "title": "Training volume and body composition as risk factors for developing jumper's knee among young elite volleyball players",
+      "authors": ["H. Visnes", "R. Bahr"],
+      "year": 2013,
+      "journal": "Scandinavian Journal of Medicine & Science in Sports",
+      "identifiers": [
+        {"namespace": "DOI", "value": "10.1111/j.1600-0838.2011.01430.x", "url": "https://doi.org/10.1111/j.1600-0838.2011.01430.x"},
+        {"namespace": "PMID", "value": "22260424", "url": "https://pubmed.ncbi.nlm.nih.gov/22260424/"}
+      ],
+      "study_type": "cohort",
+      "population": {"description": "141 initially healthy elite volleyball players followed prospectively; 28 developed clinically diagnosed jumper’s knee", "species": "human", "sample_size": 141, "age_range": "16–18"},
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22260424/",
+      "context": {"species": "human", "population": "young elite volleyball players", "tissue": "patellar tendon", "temporal_context": "four-year prospective follow-up"},
+      "result_direction": "supports",
+      "effect_estimate": {"measure": "odds ratio per additional weekly training hour", "value": 1.72, "unit": "odds ratio", "interval_low": 1.18, "interval_high": 2.53, "interval_level": 0.95, "source_note": "Longitudinal association; not a causal effect or universal threshold."},
+      "uncertainty_measure": "OR 1.72 (95% CI 1.18–2.53) per additional training hour and OR 3.88 (1.80–8.40) per additional match set per week.",
+      "limitations": ["Hours and match sets are exposure proxies, not direct tendon-load measurements.", "Residual confounding is possible.", "No universal load-to-capacity threshold was tested."],
+      "evidence_note": "Greater volleyball training and match exposure were longitudinally associated with incident clinically identified jumper’s knee in this youth elite cohort.",
+      "supporting_excerpt": null,
+      "retrieved_at": "2026-08-03",
+      "source_adapter": "manual PubMed verification",
+      "curation_status": "VALIDATED",
+      "grade": "C"
+    },
+    {
+      "key": "clifford_2020",
+      "title": "Effectiveness of isometric exercise in the management of tendinopathy: a systematic review and meta-analysis of randomised trials",
+      "authors": ["C. Clifford", "D. Challoumas", "L. Paul", "G. Syme", "N. L. Millar"],
+      "year": 2020,
+      "journal": "BMJ Open Sport & Exercise Medicine",
+      "identifiers": [
+        {"namespace": "DOI", "value": "10.1136/bmjsem-2020-000760", "url": "https://doi.org/10.1136/bmjsem-2020-000760"},
+        {"namespace": "PMID", "value": "32818059", "url": "https://pubmed.ncbi.nlm.nih.gov/32818059/"},
+        {"namespace": "PMCID", "value": "PMC7406028", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7406028/"}
+      ],
+      "study_type": "systematic_review",
+      "population": {"description": "10 randomized studies across patellar, rotator-cuff, lateral-elbow, Achilles, and gluteal tendinopathy", "species": "human"},
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32818059/",
+      "context": {"species": "human", "population": "people with several tendinopathy presentations", "tissue": "multiple tendon sites"},
+      "result_direction": "mixed",
+      "effect_estimate": null,
+      "uncertainty_measure": "Limited evidence found no superiority over isotonic exercise immediately or through 12 weeks; responses varied.",
+      "limitations": ["Only three included studies were rated good quality.", "Heterogeneous tendon sites and protocols.", "Pain response does not measure peripheral nociception or structural healing."],
+      "evidence_note": "Isometric exercise produced variable pain responses and was not consistently superior to isotonic exercise in the limited randomized evidence.",
+      "supporting_excerpt": null,
+      "retrieved_at": "2026-08-03",
+      "source_adapter": "manual PubMed/PMC verification",
+      "curation_status": "VALIDATED",
+      "grade": "B"
+    },
+    {
+      "key": "breda_2021",
+      "title": "Effectiveness of progressive tendon-loading exercise therapy in patients with patellar tendinopathy: a randomised clinical trial",
+      "authors": ["S. J. Breda", "E. H. G. Oei", "J. Zwerver", "et al."],
+      "year": 2021,
+      "journal": "British Journal of Sports Medicine",
+      "identifiers": [
+        {"namespace": "DOI", "value": "10.1136/bjsports-2020-103403", "url": "https://doi.org/10.1136/bjsports-2020-103403"},
+        {"namespace": "PMID", "value": "33219115", "url": "https://pubmed.ncbi.nlm.nih.gov/33219115/"},
+        {"namespace": "PMCID", "value": "PMC8070614", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8070614/"}
+      ],
+      "study_type": "randomized_trial",
+      "population": {"description": "76 people with clinical and ultrasound-confirmed, mostly chronic patellar tendinopathy", "species": "human", "sample_size": 76, "age_range": "mean age 24"},
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33219115/",
+      "context": {"species": "human", "population": "patients with patellar tendinopathy", "tissue": "patellar tendon", "temporal_context": "24-week comparison"},
+      "result_direction": "supports",
+      "effect_estimate": {"measure": "adjusted between-group difference in VISA-P improvement", "value": 9.0, "unit": "VISA-P points", "interval_low": 1.0, "interval_high": 16.0, "interval_level": 0.95, "source_note": "Progressive loading versus pain-provoking eccentric-only therapy at 24 weeks."},
+      "uncertainty_measure": "Return-to-sport difference was not statistically significant (43% versus 27%, p=0.13).",
+      "limitations": ["Both groups received education, activity-modification advice, and ancillary exercise.", "Adherence was low.", "A statistically significant contrast is not automatically clinically important or universal."],
+      "evidence_note": "A progressive loading program produced greater mean VISA-P improvement than a pain-provoking eccentric-only program at 24 weeks in this patellar-tendinopathy trial.",
+      "supporting_excerpt": null,
+      "retrieved_at": "2026-08-03",
+      "source_adapter": "manual PubMed/PMC verification",
+      "curation_status": "VALIDATED",
+      "grade": "B"
+    },
+    {
+      "key": "rathleff_2015",
+      "title": "Exercise during school hours when added to patient education improves outcome for 2 years in adolescent patellofemoral pain: a cluster randomised trial",
+      "authors": ["M. S. Rathleff", "E. M. Roos", "J. L. Olesen", "S. Rasmussen"],
+      "year": 2015,
+      "journal": "British Journal of Sports Medicine",
+      "identifiers": [
+        {"namespace": "DOI", "value": "10.1136/bjsports-2014-093929", "url": "https://doi.org/10.1136/bjsports-2014-093929"},
+        {"namespace": "PMID", "value": "25388552", "url": "https://pubmed.ncbi.nlm.nih.gov/25388552/"}
+      ],
+      "study_type": "randomized_trial",
+      "population": {"description": "121 adolescents with patellofemoral pain in a cluster-randomized trial", "species": "human", "sample_size": 121, "age_range": "15–19"},
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25388552/",
+      "context": {"species": "human", "population": "adolescents with patellofemoral pain", "tissue": "patellofemoral region", "temporal_context": "12- and 24-month follow-up"},
+      "result_direction": "supports",
+      "effect_estimate": {"measure": "odds ratio for self-reported recovery at 12 months", "value": 1.73, "unit": "odds ratio", "interval_low": 1.02, "interval_high": 2.93, "interval_level": 0.95, "source_note": "Education plus supervised exercise relative to education alone."},
+      "uncertainty_measure": "The reported number needed to treat was 11 at 12 months and 5 at 24 months.",
+      "limitations": ["Patellofemoral pain is not patellar tendinopathy.", "Estimates adding exercise to education, not education alone.", "Does not isolate one biological mediator."],
+      "evidence_note": "Adding supervised school-based exercise to education increased self-reported recovery relative to education alone in adolescents with patellofemoral pain.",
+      "supporting_excerpt": null,
+      "retrieved_at": "2026-08-03",
+      "source_adapter": "manual PubMed verification",
+      "curation_status": "VALIDATED",
+      "grade": "B"
+    }
+  ],
+  "assertions": [
+    {"key": "jumping_increases_exposure", "subject": "repeated_jumping", "relation": "INCREASES", "object": "volleyball_exposure", "confidence": "C", "causal_status": "expert_curation", "context": {"species": "human", "population": "young elite volleyball players", "temporal_context": "weekly training and match exposure"}, "evidence": ["visnes_2013"], "interpretation": "Repeated training and match participation increase measured weekly exposure; jump count and tendon force were not directly measured.", "limitations": ["Volleyball hours are only a proxy for repeated jumping and loading."]},
+    {"key": "exposure_affects_tendinopathy_risk", "subject": "volleyball_exposure", "relation": "AFFECTS_RISK", "object": "patellar_tendinopathy", "confidence": "C", "causal_status": "longitudinal_association", "context": {"species": "human", "population": "young elite volleyball players", "tissue": "patellar tendon", "temporal_context": "four-year follow-up"}, "evidence": ["visnes_2013"], "interpretation": "Greater weekly exposure was associated with incident clinically diagnosed jumper’s knee.", "limitations": ["Residual confounding remains possible; this is not a universal threshold."]},
+    {"key": "tendinopathy_associated_pain", "subject": "patellar_tendinopathy", "relation": "ASSOCIATED_WITH", "object": "activity_knee_pain", "confidence": "B", "causal_status": "cross_sectional_association", "context": {"species": "human", "population": "patients with confirmed patellar tendinopathy", "tissue": "patellar tendon"}, "evidence": ["breda_2021"], "interpretation": "The trial population had symptomatic patellar tendinopathy and activity-related limitations; this association does not diagnose the cause of an arbitrary knee-pain query.", "limitations": ["Clinical selection context cannot identify pathology from symptoms alone."]},
+    {"key": "jumping_precedes_landing", "subject": "repeated_jumping", "relation": "PRECEDES", "object": "landing_mechanics", "confidence": "C", "causal_status": "expert_curation", "context": {"species": "human", "population": "volleyball players", "condition": "lateral stop-jump"}, "evidence": ["janssen_2013"], "interpretation": "Jump performance includes a landing phase with measurable movement features.", "limitations": ["Does not identify a pathological movement pattern."]},
+    {"key": "landing_predicts_force", "subject": "landing_mechanics", "relation": "PREDICTED_TO_AFFECT", "object": "estimated_tendon_force", "confidence": "E", "causal_status": "computational_prediction", "context": {"species": "human", "population": "volleyball players", "tissue": "patellar tendon", "condition": "lateral stop-jump"}, "evidence": ["janssen_2013"], "interpretation": "Selected landing velocities and strength measures contributed to regression estimates of tendon force and loading rate.", "limitations": ["Force was estimated, not directly measured; no pain outcome was studied."]},
+    {"key": "force_contributes_stress", "subject": "estimated_tendon_force", "relation": "CONTRIBUTES_TO", "object": "local_tendon_stress", "confidence": "U", "causal_status": "hypothesis_only", "context": {"species": "human", "population": "cross-study mechanistic projection", "tissue": "patellar tendon"}, "evidence": ["janssen_2013", "bohm_2015"], "interpretation": "Estimated force is represented as a mechanical input to a tissue-stress state; neither source directly measured this state during painful activity.", "limitations": ["Model bridge; mechanical stress must not be equated with tissue damage."]},
+    {"key": "stress_contributes_pain", "subject": "local_tendon_stress", "relation": "PREDICTED_TO_AFFECT", "object": "activity_knee_pain", "confidence": "U", "causal_status": "hypothesis_only", "context": {"species": "human", "population": "undifferentiated symptom context", "tissue": "patellar tendon"}, "evidence": ["breda_2021"], "interpretation": "A tissue-stress-to-pain link is plausible in a patellar-tendinopathy context but was not directly identified by the cited clinical trial.", "limitations": ["Pain is multifactorial; no direct stress or nociceptor measurement is bundled."]},
+    {"key": "loading_increases_adaptation", "subject": "estimated_tendon_force", "relation": "PREDICTED_TO_AFFECT", "object": "tendon_adaptation", "confidence": "U", "causal_status": "hypothesis_only", "context": {"species": "human", "population": "healthy adults", "tissue": "patellar or Achilles tendon", "temporal_context": "acute force estimate projected onto chronic adaptation"}, "evidence": ["bohm_2015"], "interpretation": "This is a model bridge from an estimated single-jump force to chronic tendon adaptation. The cited review tested loading interventions over at least eight weeks, not this acute-force endpoint.", "limitations": ["The source does not establish that a single-jump force estimate causes chronic adaptation.", "Healthy-adult tendon adaptation does not imply pain relief, healing, or prevention."]},
+    {"key": "adaptation_moderates_stress", "subject": "tendon_adaptation", "relation": "MODERATES", "object": "local_tendon_stress", "polarity": -1, "confidence": "U", "causal_status": "hypothesis_only", "context": {"species": "human", "population": "systems-model abstraction", "tissue": "tendon"}, "evidence": ["bohm_2015"], "interpretation": "The Petri model treats adaptation as a modifier of stress accumulation, but the meta-analysis did not test this mediation or pain.", "limitations": ["Explicit modeling assumption."]},
+    {"key": "recovery_moderates_stress", "subject": "recovery_capacity", "relation": "MODERATES", "object": "local_tendon_stress", "polarity": -1, "confidence": "U", "causal_status": "hypothesis_only", "context": {"species": "not specified", "population": "systems-model abstraction", "tissue": "tendon"}, "evidence": ["bohm_2015", "visnes_2013"], "interpretation": "Recovery capacity is a latent model construct proposed to modify accumulated stress; it was not directly measured as one quantity.", "limitations": ["No validated numeric load-to-capacity ratio or threshold."]},
+    {"key": "stress_contributes_nociception", "subject": "local_tendon_stress", "relation": "PREDICTED_TO_AFFECT", "object": "nociceptive_signaling", "confidence": "U", "causal_status": "hypothesis_only", "context": {"species": "human", "population": "educational model", "tissue": "patellar tendon"}, "evidence": ["clifford_2020"], "interpretation": "The model proposes a stress-to-nociceptive-state bridge, but the cited pain review did not measure peripheral signaling.", "limitations": ["Unvalidated mechanistic bridge."]},
+    {"key": "nociception_contributes_pain", "subject": "nociceptive_signaling", "relation": "CONTRIBUTES_TO", "object": "activity_knee_pain", "confidence": "U", "causal_status": "expert_curation", "context": {"species": "human", "population": "general symptom model"}, "evidence": ["clifford_2020"], "interpretation": "Nociceptive processing can contribute to pain, but reported pain responses do not directly measure this modeled state.", "limitations": ["Pain is not a direct readout of a single peripheral signal."]},
+    {"key": "force_distribution_affects_pf_load", "subject": "force_distribution", "relation": "PREDICTED_TO_AFFECT", "object": "patellofemoral_load", "confidence": "U", "causal_status": "hypothesis_only", "context": {"species": "human", "population": "activity-related anterior knee-pain hypothesis", "tissue": "patellofemoral joint"}, "evidence": ["janssen_2013"], "interpretation": "Force distribution may change local joint loading, but the cited tendon-force study did not estimate patellofemoral load.", "limitations": ["Cross-anatomical extrapolation retained as a weak link."]},
+    {"key": "pf_load_affects_pf_pain", "subject": "patellofemoral_load", "relation": "PREDICTED_TO_AFFECT", "object": "patellofemoral_pain", "confidence": "U", "causal_status": "hypothesis_only", "context": {"species": "human", "population": "adolescents with patellofemoral pain", "tissue": "patellofemoral joint"}, "evidence": ["rathleff_2015"], "interpretation": "Mechanical loading is a plausible context modifier, but the clinical trial did not identify load as the cause of pain.", "limitations": ["No causal load estimate in the cited trial."]},
+    {"key": "pf_pain_associated_activity_pain", "subject": "patellofemoral_pain", "relation": "ASSOCIATED_WITH", "object": "activity_knee_pain", "confidence": "B", "causal_status": "cross_sectional_association", "context": {"species": "human", "population": "adolescents with patellofemoral pain", "tissue": "patellofemoral region"}, "evidence": ["rathleff_2015"], "interpretation": "Patellofemoral pain is retained as a distinct clinical population that can present with activity-related pain.", "limitations": ["Does not imply a diagnosis for a user’s symptom."]},
+    {"key": "progressive_loading_improves_outcome", "subject": "progressive_loading", "relation": "INCREASES", "object": "reported_recovery", "confidence": "B", "causal_status": "causal_experimental", "context": {"species": "human", "population": "patients with confirmed patellar tendinopathy", "tissue": "patellar tendon", "temporal_context": "24 weeks"}, "evidence": ["breda_2021"], "interpretation": "The progressive program improved a validated clinical score more than a pain-provoking eccentric-only comparator at 24 weeks.", "limitations": ["Combined program; low adherence; no individual recommendation."]},
+    {"key": "isometric_variable_pain", "subject": "isometric_exercise", "relation": "ASSOCIATED_WITH", "object": "acute_pain_response", "confidence": "B", "causal_status": "expert_curation", "context": {"species": "human", "population": "several tendinopathy populations", "tissue": "multiple tendon sites"}, "evidence": ["clifford_2020"], "interpretation": "Randomized evidence showed variable acute pain responses and no consistent superiority over isotonic exercise.", "limitations": ["Acute analgesia is not structural healing."]},
+    {"key": "education_exercise_increases_recovery", "subject": "education_exercise", "relation": "INCREASES", "object": "reported_recovery", "confidence": "B", "causal_status": "causal_experimental", "context": {"species": "human", "population": "adolescents with patellofemoral pain", "tissue": "patellofemoral region", "temporal_context": "12 to 24 months"}, "evidence": ["rathleff_2015"], "interpretation": "Adding supervised exercise to education increased self-reported recovery relative to education alone in this distinct population.", "limitations": ["Not evidence for patellar tendinopathy or education alone."]}
+  ],
+  "hypotheses": [
+    {
+      "key": "exposure_tendon",
+      "title": "Exposure-associated patellar-tendon pathway",
+      "summary": "Higher weekly volleyball exposure was prospectively associated with incident jumper’s knee. This supports a context-matched risk pathway but does not show that repeated jumping alone causes a particular person’s pain.",
+      "outcome": "activity_knee_pain",
+      "trigger": "repeated_jumping",
+      "paths": [{"entities": ["repeated_jumping", "volleyball_exposure", "patellar_tendinopathy", "activity_knee_pain"], "assertions": ["jumping_increases_exposure", "exposure_affects_tendinopathy_risk", "tendinopathy_associated_pain"]}],
+      "mediators": ["volleyball_exposure", "patellar_tendinopathy"],
+      "tissues": [],
+      "evidence": ["visnes_2013", "breda_2021"],
+      "context_requirements": ["Volleyball-like repeated exposure.", "Clinical examination is required to identify patellar tendinopathy."],
+      "missing_links": ["Direct tendon-load and within-person pain mediation were not measured."],
+      "uncertainty": ["Residual confounding.", "Exposure hours are proxies.", "Symptoms alone cannot identify this pathway."],
+      "interventions": ["progressive_loading_intervention", "isometric_research"],
+      "evidence_label": "Plausible longitudinal human risk pathway"
+    },
+    {
+      "key": "local_load",
+      "title": "Landing-load and local tissue-stress pathway",
+      "summary": "Landing features predict estimated patellar-tendon loading. The transitions from estimated force to a local stress state and from stress to pain remain explicit model hypotheses.",
+      "outcome": "activity_knee_pain",
+      "trigger": "repeated_jumping",
+      "paths": [{"entities": ["repeated_jumping", "landing_mechanics", "estimated_tendon_force", "local_tendon_stress", "nociceptive_signaling", "activity_knee_pain"], "assertions": ["jumping_precedes_landing", "landing_predicts_force", "force_contributes_stress", "stress_contributes_nociception", "nociception_contributes_pain"]}],
+      "mediators": ["landing_mechanics", "estimated_tendon_force", "local_tendon_stress", "nociceptive_signaling"],
+      "tissues": [],
+      "evidence": ["janssen_2013", "bohm_2015", "clifford_2020"],
+      "context_requirements": ["Landing task and tissue context must be specified."],
+      "missing_links": ["No bundled study directly measures tendon force, tissue stress, nociceptive signaling, and pain in one causal chain."],
+      "uncertainty": ["Estimated rather than measured force.", "Several transitions are model bridges."],
+      "interventions": ["load_management_concept", "progressive_loading_intervention"],
+      "evidence_label": "Biomechanically plausible with weak downstream causal links"
+    },
+    {
+      "key": "patellofemoral_competing",
+      "title": "Competing patellofemoral mechanism family",
+      "summary": "Force distribution and patellofemoral loading form a competing anatomical hypothesis. The bundled trial supports exercise plus education in an adolescent patellofemoral-pain population, not the proposed mechanical causal path.",
+      "outcome": "activity_knee_pain",
+      "trigger": "force_distribution",
+      "paths": [{"entities": ["force_distribution", "patellofemoral_load", "patellofemoral_pain", "activity_knee_pain"], "assertions": ["force_distribution_affects_pf_load", "pf_load_affects_pf_pain", "pf_pain_associated_activity_pain"]}],
+      "mediators": ["patellofemoral_load", "patellofemoral_pain"],
+      "tissues": [],
+      "evidence": ["rathleff_2015"],
+      "context_requirements": ["Anterior-knee-pain phenotype and appropriate clinical context."],
+      "missing_links": ["The bundled study does not identify a specific mechanical cause."],
+      "uncertainty": ["Distinct population from patellar tendinopathy.", "Mechanical edges are hypothesis-level."],
+      "interventions": ["pf_education_exercise"],
+      "evidence_label": "Competing clinical branch with unvalidated mechanical links"
+    }
+  ],
+  "interventions": [
+    {
+      "key": "progressive_loading_intervention",
+      "name": "Progressive tendon-loading rehabilitation concept",
+      "class": "rehabilitation_concept",
+      "description": "A staged program studied in clinically confirmed patellar tendinopathy. It is compared as a research class, not prescribed to an individual.",
+      "targets": ["tendon_adaptation", "reported_recovery"],
+      "assertions": ["progressive_loading_improves_outcome"],
+      "evidence": ["breda_2021"],
+      "maturity": "human randomized clinical research",
+      "addresses": "multiple",
+      "mechanistic_relevance": 0.78,
+      "evidence_strength": 0.74,
+      "directness": 0.76,
+      "translational_maturity": 0.78,
+      "uncertainty": ["Combined intervention and low adherence.", "Population had confirmed patellar tendinopathy."],
+      "major_safety_concerns": ["Loading changes can aggravate symptoms and require context-appropriate professional guidance."],
+      "unsupported_assumptions": ["That the same program suits undifferentiated knee pain."]
+    },
+    {
+      "key": "load_management_concept",
+      "name": "Training-load modification concept",
+      "class": "physical_or_mechanical",
+      "description": "A cause-oriented research concept motivated by an exposure–risk association; the pack supplies no universal safe threshold or personal schedule.",
+      "targets": ["volleyball_exposure", "local_tendon_stress", "recovery_capacity"],
+      "assertions": [],
+      "evidence": ["visnes_2013"],
+      "maturity": "observational human evidence plus systems-model rationale",
+      "addresses": "cause",
+      "mechanistic_relevance": 0.82,
+      "evidence_strength": 0.58,
+      "directness": 0.55,
+      "translational_maturity": 0.64,
+      "uncertainty": ["No measured load-to-capacity ratio.", "Association may be confounded."],
+      "major_safety_concerns": ["Abrupt activity changes or prolonged inactivity can have consequences; no personal schedule is provided."],
+      "unsupported_assumptions": ["A universal exposure threshold."]
+    },
+    {
+      "key": "isometric_research",
+      "name": "Isometric exercise for short-term pain response",
+      "class": "rehabilitation_concept",
+      "description": "A symptom-oriented exercise class with variable acute pain findings and no consistent superiority over isotonic exercise.",
+      "targets": ["acute_pain_response"],
+      "assertions": ["isometric_variable_pain"],
+      "evidence": ["clifford_2020"],
+      "maturity": "limited heterogeneous randomized evidence",
+      "addresses": "symptom",
+      "mechanistic_relevance": 0.48,
+      "evidence_strength": 0.60,
+      "directness": 0.62,
+      "translational_maturity": 0.58,
+      "uncertainty": ["Responses vary within and across tendon conditions.", "No unique analgesic superiority."],
+      "major_safety_concerns": ["Exercise selection and tolerance depend on clinical context."],
+      "unsupported_assumptions": ["Acute pain reduction implies tissue healing."]
+    },
+    {
+      "key": "pf_education_exercise",
+      "name": "Education plus supervised exercise",
+      "class": "rehabilitation_concept",
+      "description": "A combined intervention studied in adolescents with patellofemoral pain; it belongs to a competing clinical branch.",
+      "targets": ["patellofemoral_pain", "reported_recovery"],
+      "assertions": ["education_exercise_increases_recovery"],
+      "evidence": ["rathleff_2015"],
+      "maturity": "human cluster-randomized trial",
+      "addresses": "multiple",
+      "mechanistic_relevance": 0.68,
+      "evidence_strength": 0.72,
+      "directness": 0.72,
+      "translational_maturity": 0.75,
+      "uncertainty": ["Distinct adolescent patellofemoral-pain population.", "Does not isolate education’s effect."],
+      "major_safety_concerns": ["Requires context-appropriate exercise selection and symptom monitoring."],
+      "unsupported_assumptions": ["Generalization to patellar tendinopathy or all knee pain."]
+    }
+  ],
+  "petri_model": {
+    "key": "knee-load",
+    "name": "Curated knee-load systems model",
+    "description": "A simplified educational model of repeated load, accumulated tissue stress, recovery, adaptation, an inflammatory-mediator state, pain sensitivity, and accumulated symptom output.",
+    "model_version": "knee-petri-1.0.0",
+    "output_place": "symptom_output",
+    "scenarios": [
+      {
+        "id": "higher_load",
+        "label": "Increase input",
+        "description": "Increase the synthetic mechanical input rate.",
+        "parameter_changes": [
+          {
+            "key": "Mechanical load input.rate",
+            "baseline": 0.45,
+            "at_full_strength": 0.9
+          }
+        ],
+        "initial_changes": []
+      },
+      {
+        "id": "reduced_input",
+        "label": "Reduce input",
+        "description": "Reduce the synthetic mechanical input rate.",
+        "parameter_changes": [
+          {
+            "key": "Mechanical load input.rate",
+            "baseline": 0.45,
+            "at_full_strength": 0.1575
+          }
+        ],
+        "initial_changes": []
+      },
+      {
+        "id": "reduced_recovery",
+        "label": "Reduce recovery",
+        "description": "Lower the initial recovery state. Only crossing its gate changes recovery transition activity.",
+        "parameter_changes": [],
+        "initial_changes": [
+          {
+            "key": "Recovery capacity",
+            "baseline": 0.8,
+            "at_full_strength": 0.2
+          }
+        ]
+      },
+      {
+        "id": "increased_recovery",
+        "label": "Increase recovery",
+        "description": "Raise the initial recovery state. A gate already open need not increase downstream recovery.",
+        "parameter_changes": [],
+        "initial_changes": [
+          {
+            "key": "Recovery capacity",
+            "baseline": 0.8,
+            "at_full_strength": 1.6
+          }
+        ]
+      },
+      {
+        "id": "continued_overload",
+        "label": "Increase input and reduce dissipation",
+        "description": "Increase synthetic input while reducing the dissipation rate.",
+        "parameter_changes": [
+          {
+            "key": "Mechanical load input.rate",
+            "baseline": 0.45,
+            "at_full_strength": 1.1
+          },
+          {
+            "key": "Load dissipation.rate_constant",
+            "baseline": 0.34,
+            "at_full_strength": 0.187
+          }
+        ],
+        "initial_changes": []
+      }
+    ],
+    "assumptions": [
+      "All places are dimensionless abstractions rather than patient measurements.",
+      "Recovery capacity and tissue stress are latent model constructs.",
+      "Pain is multifactorial; the model does not identify an anatomical diagnosis.",
+      "Synthetic rates support qualitative scenario comparisons only."
+    ],
+    "places": [
+      {"key": "mechanical_load", "name": "Mechanical load", "description": "Repeated external mechanical input.", "representation": "dimensionless activity", "units": "a.u.", "compartment": "external/tissue interface", "valid_min": 0.0, "valid_max": 10.0, "initial_value": 0.2},
+      {"key": "tissue_stress", "name": "Accumulated tissue stress", "description": "Abstract accumulated stress, not tissue damage.", "representation": "dimensionless state", "units": "a.u.", "compartment": "local tissue", "valid_min": 0.0, "valid_max": 20.0, "initial_value": 0.1},
+      {"key": "recovery", "name": "Recovery capacity", "description": "Latent recovery gate used for scenario comparison.", "representation": "dimensionless capacity", "units": "a.u.", "compartment": "system", "valid_min": 0.0, "valid_max": 3.0, "initial_value": 0.8},
+      {"key": "adaptation", "name": "Adaptation", "description": "Abstract tissue adaptation that limits stress accumulation after reaching a threshold.", "representation": "dimensionless state", "units": "a.u.", "compartment": "local tissue", "valid_min": 0.0, "valid_max": 3.0, "initial_value": 0.2},
+      {"key": "inflammatory", "name": "Inflammatory mediator state", "description": "Abstract mediator state, not an inferred biomarker.", "representation": "dimensionless activity", "units": "a.u.", "compartment": "local tissue", "valid_min": 0.0, "valid_max": 10.0, "initial_value": 0.02},
+      {"key": "pain_sensitivity", "name": "Pain-sensitivity state", "description": "Abstract nociceptive/pain-processing state.", "representation": "dimensionless activity", "units": "a.u.", "compartment": "local and nervous system", "valid_min": 0.0, "valid_max": 10.0, "initial_value": 0.02},
+      {"key": "symptom_output", "name": "Accumulated symptom output", "description": "Model output that is not a clinical pain prediction.", "representation": "dimensionless accumulated output", "units": "a.u.", "compartment": "model output", "valid_min": 0.0, "valid_max": 50.0, "initial_value": 0.0}
+    ],
+    "transitions": [
+      {"key": "load_input", "name": "Mechanical load input", "biological_event": "Repeated activity adds mechanical load.", "rate_law": "constant", "parameters": {"rate": 0.45}, "evidence": ["janssen_2013", "visnes_2013"], "assumptions": ["Synthetic constant input; not a prescribed activity dose."]},
+      {"key": "load_clear", "name": "Load dissipation", "biological_event": "Mechanical input dissipates.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.34}, "evidence": ["janssen_2013"], "assumptions": ["Synthetic first-order loss."]},
+      {"key": "stress_build", "name": "Stress accumulation", "biological_event": "Mechanical load contributes to an accumulated stress state.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.42}, "evidence": ["janssen_2013", "bohm_2015"], "assumptions": ["Stress is not damage and was not directly measured in the cited studies."]},
+      {"key": "stress_recovery", "name": "Stress recovery", "biological_event": "Stress clears when recovery capacity exceeds the declared gate.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.18}, "evidence": ["bohm_2015"], "assumptions": ["Recovery gate and rate are synthetic."]},
+      {"key": "adaptation_build", "name": "Adaptation formation", "biological_event": "Sustained loading contributes to a tissue-adaptation state.", "rate_law": "constant", "parameters": {"rate": 0.035}, "evidence": ["bohm_2015"], "assumptions": ["Gated qualitative approximation of chronic adaptation."]},
+      {"key": "adaptation_decay", "name": "Adaptation decay", "biological_event": "Adaptation state slowly declines.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.012}, "evidence": ["bohm_2015"], "assumptions": ["Synthetic first-order loss; detraining was not estimated from the source."]},
+      {"key": "mediator_build", "name": "Mediator activation", "biological_event": "Accumulated stress contributes to an inflammatory-mediator state.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.07}, "evidence": ["clifford_2020"], "assumptions": ["Unvalidated model bridge; no biomarker was measured by the cited review."]},
+      {"key": "mediator_clear", "name": "Mediator clearance", "biological_event": "Mediator state clears.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.11}, "evidence": ["clifford_2020"], "assumptions": ["Synthetic first-order loss."]},
+      {"key": "pain_build", "name": "Pain-sensitivity activation", "biological_event": "Mediator state contributes to a pain-sensitivity state.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.16}, "evidence": ["clifford_2020"], "assumptions": ["Pain is not reducible to this state; qualitative bridge only."]},
+      {"key": "pain_clear", "name": "Pain-sensitivity recovery", "biological_event": "Pain-sensitivity state relaxes.", "rate_law": "mass_action", "parameters": {"rate_constant": 0.09}, "evidence": ["clifford_2020"], "assumptions": ["Synthetic first-order loss."]},
+      {"key": "symptom_accumulate", "name": "Symptom-output accumulation", "biological_event": "Pain-sensitivity state adds to model symptom output.", "rate_law": "constant", "parameters": {"rate": 0.045}, "evidence": ["clifford_2020"], "assumptions": ["Output is not a clinical pain scale or personal prediction."]}
+    ],
+    "arcs": [
+      {"place": "mechanical_load", "transition": "load_input", "type": "output", "weight": 1.0},
+      {"place": "mechanical_load", "transition": "load_clear", "type": "input", "weight": 1.0},
+      {"place": "mechanical_load", "transition": "stress_build", "type": "input", "weight": 1.0},
+      {"place": "adaptation", "transition": "stress_build", "type": "inhibitory", "weight": 1.5, "threshold": 1.5},
+      {"place": "tissue_stress", "transition": "stress_build", "type": "output", "weight": 1.0},
+      {"place": "tissue_stress", "transition": "stress_recovery", "type": "input", "weight": 1.0},
+      {"place": "recovery", "transition": "stress_recovery", "type": "read", "weight": 0.6, "threshold": 0.6},
+      {"place": "mechanical_load", "transition": "adaptation_build", "type": "read", "weight": 0.25, "threshold": 0.25},
+      {"place": "adaptation", "transition": "adaptation_build", "type": "output", "weight": 1.0},
+      {"place": "adaptation", "transition": "adaptation_decay", "type": "input", "weight": 1.0},
+      {"place": "tissue_stress", "transition": "mediator_build", "type": "input", "weight": 1.0},
+      {"place": "inflammatory", "transition": "mediator_build", "type": "output", "weight": 1.0},
+      {"place": "inflammatory", "transition": "mediator_clear", "type": "input", "weight": 1.0},
+      {"place": "inflammatory", "transition": "pain_build", "type": "input", "weight": 1.0},
+      {"place": "pain_sensitivity", "transition": "pain_build", "type": "output", "weight": 1.0},
+      {"place": "pain_sensitivity", "transition": "pain_clear", "type": "input", "weight": 1.0},
+      {"place": "pain_sensitivity", "transition": "symptom_accumulate", "type": "read", "weight": 0.05, "threshold": 0.05},
+      {"place": "symptom_output", "transition": "symptom_accumulate", "type": "output", "weight": 1.0}
+    ]
+  }
+}
