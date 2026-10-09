@@ -2,7 +2,6 @@
 
 An evidence-grounded computational biology workbench connecting questions, sources, mechanism graphs, and selected mathematical models.
 
-> **OWNER REVIEW REQUIRED:** This is a factual case-study draft. Confirm your contribution before adapting “What was built” into first-person portfolio copy. Implementation used coding assistants; the repository alone cannot establish which lines, algorithms, or reviews you personally completed.
 
 ## Problem
 

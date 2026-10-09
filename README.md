@@ -142,7 +142,7 @@ The [reproducibility record](docs/reproducibility.md) distinguishes a tested cle
 
 ## What I learned
 
-**Owner-review draft:** The documented development lessons are concrete: a two-topic interface was too restrictive; curated assertions needed separation from provisional retrieval; early extraction sometimes preferred review-method sentences over useful biology; graph density hurt comprehension; and passing tests did not resolve scientific uncertainty. Personal wording should describe what the creator actually understood, changed, and learned. [Failures, decisions, and explanation guide](docs/project-defense-guide.md)
+The documented development lessons are concrete: a two-topic interface was too restrictive; curated assertions needed separation from provisional retrieval; early extraction sometimes preferred review-method sentences over useful biology; graph density hurt comprehension; and passing tests did not resolve scientific uncertainty. Personal wording should describe what the creator actually understood, changed, and learned. [Documented failures and revisions](docs/validation.md#failures-repaired-during-the-scientific-upgrade)
 
 ## Next steps
 
@@ -152,6 +152,6 @@ Near term: improve context extraction and mechanism explanations, dense graph la
 
 [Documentation index](docs/README.md) · [Contributing](CONTRIBUTING.md) · [Public-release audit](docs/public-release-audit.md) · [Portfolio case study](docs/portfolio-case-study.md) · [Release notes](CHANGELOG.md)
 
-The prepared **v1.0.0 — Public Research MVP** has not been tagged or published. Repository creation, contribution confirmation, remote CI, demo hosting, and release publication remain [owner publishing steps](docs/github-publishing-checklist.md).
+The prepared **v1.0.0 — Public Research MVP** has not been tagged or published. Repository creation, contribution confirmation, remote CI, demo hosting, and release publication remain (docs/github-publishing-checklist.md).
 
 Licensed under **Apache-2.0**; see [LICENSE](LICENSE) and [third-party notices](THIRD_PARTY_NOTICES.md). Publication and database content retains its own terms.

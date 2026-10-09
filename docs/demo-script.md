@@ -38,4 +38,4 @@ Finish on the [validation record](validation.md), using the counts from the actu
 - Add captions and a text transcript. Review the exported video for legibility at a smaller embedded size.
 - Upload only after review. Replace the README's demo link with the actual hosted URL; no URL is supplied until it exists.
 
-The walkthrough is a product demonstration. First-person narration about authorship or learning must also pass the owner review in the [college summary](college-application-summary.md).
+The walkthrough is a product demonstration. First-person narration about authorship or learning must accurately describe your own contribution and experience.

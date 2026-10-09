@@ -22,7 +22,7 @@ The Bayesian topic refers to the explicit synthetic demonstration. Do not descri
 
 1. **Create or confirm the repository.** Choose the intended account and visibility. If publishing this existing tree into an empty GitHub repository, avoid generating a competing README/license remotely. Confirm the remote destination before adding it locally.
 2. **Review the public tree.** Run `pnpm public:check`, `pnpm docs:check`, `git status --short`, and `git diff --check`. Review filenames, ignored artifacts, images, notices, and generated documentation. Automated scans do not replace inspection.
-3. **Review “My contribution.”** Confirm each personal claim in the README, case study, application drafts, and defense guide. Replace owner-review text with accurate wording or leave the drafts explicitly marked; never publish uncertain authorship as fact.
+3. **Review “My contribution.”** Confirm each personal claim in the README and case study. Replace owner-review text with accurate wording or leave the drafts explicitly marked; never publish uncertain authorship as fact.
 4. **Review coding-assistant disclosure.** Describe the actual roles of direction, implementation, debugging, testing, and review. Do not claim sole authorship of every algorithm or formal mastery unsupported by your experience.
 5. **Commit and push the reviewed source.** Use the truthful initial-import plan below. Verify the destination and final staged diff before pushing. Do not manufacture a development timeline.
 6. **Confirm hosted CI.** Open the Actions run and inspect its results on the actual commit. Fix failures; only then describe that commit as passing hosted CI. No passing status badge is included in advance.
@@ -33,7 +33,7 @@ The Bayesian topic refers to the explicit synthetic demonstration. Do not descri
 11. **Review and host the demo.** Review the local recording, or record a new walkthrough using the [60-second script](demo-script.md), then upload it and add its real hosted URL to the README. Retain the script link in the docs index. Label sped-up or cached retrieval honestly.
 12. **Pin the repository.** Select it in your own GitHub profile's pinned repositories after checking the card description and README.
 13. **Link the case study.** Add the real GitHub and demo URLs to your personal portfolio and [case-study draft](portfolio-case-study.md). Do not modify unrelated project claims to match this project's methods.
-14. **Review application wording.** Adapt the [college/resume drafts](college-application-summary.md) to your actual contribution, current form limits, and confidence explaining the [defense guide](project-defense-guide.md). Recheck counts against the release's validation record.
+14. **Review application wording.** Keep application and resume wording consistent with your actual contribution, current form limits, and the methods you can explain. Recheck counts against the release's validation record.
 
 ## Truthful commit and release plan
 

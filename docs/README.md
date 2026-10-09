@@ -27,7 +27,6 @@ Start with the [project README](../README.md) for the question-to-evidence workf
 ## Presenting and publishing the project
 
 - [Recorded demo and transcript](demo-transcript.md), [demo script](demo-script.md), [portfolio case study](portfolio-case-study.md), and [GitHub publishing checklist](github-publishing-checklist.md)
-- [Project defense guide](project-defense-guide.md): explanations of the actual methods and their limits
-- [College/application and resume drafts](college-application-summary.md) and [broader portfolio positioning](portfolio-positioning.md): owner-review working material, not established personal-authorship statements
+- [Broader portfolio positioning](portfolio-positioning.md): owner-review working material, not established personal-authorship statements
 
 The repository can establish implemented behavior and recorded checks. Personal contribution, understanding, and learning statements still require the owner's confirmation. Passing software tests is not independent scientific or clinical validation.

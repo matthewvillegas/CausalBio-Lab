@@ -89,4 +89,4 @@ Keep pull requests focused. Describe:
 
 Before submitting, check that provenance and safety boundaries remain intact, public files contain no credentials or local artifacts, and tests assert the intended behavior rather than mirror implementation details. Explain new dependencies and remove unrelated generated output.
 
-Use clear commit messages and update documentation or `CHANGELOG.md` when behavior, schemas, data, or public interfaces change. Never invent prior commits, dates, citations, contributors, or validation. Describe coding-assistant use honestly when discussing personal authorship. By contributing, you agree that your contribution is licensed under Apache-2.0 and that you will follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+Use clear commit messages and update documentation or `CHANGELOG.md` when behavior, schemas, data, or public interfaces change. Never invent prior commits, dates, citations, contributors, or validation. Describe coding-assistant use honestly when discussing personal authorship. By contributing, you agree that your contribution is licensed under Apache-2.0.

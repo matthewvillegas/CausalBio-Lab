@@ -31,7 +31,7 @@ No credential, private email, or user-specific absolute path was detected in the
 - **Ignored** local databases and sidecars, retrieval caches, coverage/logs, browser traces, private environment variants, editor files, and bulk screenshots. Six README screenshots, one social preview, and the reviewed video remain public. Local review images and user data were preserved.
 - **Removed** the redundant browser CI config, unused `python-multipart`, and the deprecated Cytoscape type stub. No folder reshuffle or manufactured historical commits were needed.
 - **Fixed** declared Node prerequisites, portable Python/browser startup, production browser defaults, font-notice packaging, loopback startup/Compose bindings, missing-baseline handling in the optional design capture, and narrowly scoped dependency advisories. Container changes were inspected, not executed locally.
-- **Added** reproducible-copy, public-file, and documentation checks; a concise docs index; practical issue/PR templates; updated contribution/security policies; complete Apache-2.0 text and third-party notices; unreleased v1.0.0 notes; conservative portfolio/application drafts; and the 28-topic defense guide.
+- **Added** reproducible-copy, public-file, and documentation checks; a concise docs index; practical issue/PR templates; updated contribution/security policies; complete Apache-2.0 text and third-party notices; unreleased v1.0.0 notes; conservative portfolio drafts.
 
 ## Verification and integrity
 
@@ -71,9 +71,7 @@ CausalBio Lab/
 ├── docs/
 │   ├── README.md           # Methods, architecture, validation and design index
 │   ├── assets/             # Six screenshots, preview, video and review records
-│   ├── project-defense-guide.md
 │   ├── portfolio-case-study.md
-│   ├── college-application-summary.md
 │   ├── portfolio-positioning.md
 │   ├── demo-script.md
 │   ├── demo-transcript.md
@@ -85,7 +83,7 @@ CausalBio Lab/
 ├── artifacts/.gitkeep
 ├── README.md
 ├── LICENSE / NOTICE / THIRD_PARTY_NOTICES.md
-├── CONTRIBUTING.md / SECURITY.md / CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md / SECURITY.md
 ├── CHANGELOG.md / CITATION.cff / IMPLEMENTATION_PLAN.md
 ├── .env.example / .gitignore / .dockerignore
 ├── .editorconfig / .pre-commit-config.yaml
@@ -98,7 +96,7 @@ This was a content inspection, not a timed user study or rendered public GitHub 
 
 - **15 seconds:** the opening sentence, three bullets, workspace image and real demo link explain the purpose and appearance without setup instructions or badge clutter.
 - **60 seconds:** the workflow, architecture boundaries, concrete methods and current test/coverage summary explain how it works and what was checked.
-- **10 minutes:** linked graph, Petri/ODE, Bayesian, evidence, safety, validation and reproducibility documents expose assumptions and implementation references. The defense guide covers all 28 requested questions and gives owner practice tasks.
+- **10 minutes:** linked graph, Petri/ODE, Bayesian, evidence, safety, validation and reproducibility documents expose assumptions and implementation references.
 
 The README remains a summary; detailed methodology stays in `docs/`. Personal claims are explicitly marked **OWNER REVIEW REQUIRED**. No claim is made that the repository establishes the creator's independent understanding.
 
@@ -115,7 +113,7 @@ Editorial self-assessment, 0–5 per dimension, not an admissions score, indepen
 | Validation               | 4     | Meaningful failure, numerical, persistence and production-browser tests plus current coverage; Chromium/Windows and bounded fixtures limit scope |
 | Reproducibility          | 4     | Independent public-source installation, seed/startup/full checks passed; actual remote clone and hosted platform execution remain owner steps    |
 | User experience          | 4     | Mechanism-first notebook layout, citations, text alternatives and responsive review; dense graphs and lengthy extracts still need refinement     |
-| Ownership                | 2     | Decisions and defense material are documented; personal contribution and ability to explain/modify code require owner confirmation               |
+| Ownership                | 2     | Decisions are documented; personal contribution and ability to explain/modify code require owner confirmation               |
 | Presentation             | 4     | Scannable README, six selected screenshots, real captioned demo and concise case study; public repository card and hosted demo not yet live      |
 | Growth / iteration       | 4     | Dated reviews document two-topic routing, extraction and UI failures and revisions; no fabricated Git chronology or measured user study          |
 
