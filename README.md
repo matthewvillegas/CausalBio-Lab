@@ -15,11 +15,6 @@ _Start with a biological question. Two curated investigations provide deeper exa
 
 Biological evidence is distributed across papers, databases, organisms, tissues, and experimental contexts. A document search does not automatically explain how those findings fit together. CausalBio explores that gap: organize evidence into inspectable structures while preserving where each claim came from and what it cannot establish.
 
-## My contribution
-
-**OWNER REVIEW REQUIRED before publication:** Confirm the personal contribution statement and name before using this project in an application. The repository shows the implemented work, but cannot independently establish which parts its creator personally wrote or mastered.
-
-Suggested statement to review: “I directed CausalBio's research workflow and product design, worked through implementation and debugging with coding assistants, and reviewed its source-traceability requirements, numerical boundaries, tests, and limitations.” Confirm or revise each claim. Do not imply sole authorship of every algorithm or formal mastery of all underlying mathematics. The [project defense guide](docs/project-defense-guide.md) supports studying and explaining the actual system.
 
 ## What happens to a question?
 
